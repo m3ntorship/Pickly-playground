@@ -1,33 +1,32 @@
 .radio__container {
-    @apply block h-6 w-6 relative cursor-pointer rounded-full group;
+  @apply block h-6 w-6 relative cursor-pointer rounded-full group;
 }
 
 /* Hide the browser's default radio button */
 .radio__input {
-    @apply opacity-0;
+  @apply opacity-0;
 }
 
 /* Create a custom radio button */
 .radio__checkmark {
-    @apply flex justify-center items-center absolute top-0 left-0 h-6 w-6 bg-white border border-solid border-primary rounded-full;
+  @apply flex justify-center items-center absolute top-0 left-0 h-6 w-6 bg-white border border-solid border-primary rounded-full;
 }
 
 /* On mouse-over, add a grey background color */
 .radio__checkmark {
-    @apply group-hover:bg-grey-shd5;
+  @apply group-hover:bg-grey-shd5;
 }
 
 /* When the radio button is checked, add a blue background */
-.radio__input:checked~.radio__checkmark {
-    @apply bg-primary;
+.radio__input:checked ~ .radio__checkmark {
+  @apply bg-primary;
 }
 
 .radio__dot {
-    @apply w-2 h-2 hidden bg-white rounded-full;
+  @apply w-2 h-2 hidden bg-white rounded-full;
 }
 
-
 /* Show the indicator (dot/circle) when checked */
-.radio__input:checked~.radio__checkmark .radio__dot {
-    @apply block;
+.radio__input:checked ~ .radio__checkmark .radio__dot {
+  @apply block;
 }

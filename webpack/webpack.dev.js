@@ -1,15 +1,15 @@
-"use strict";
+'use strict';
 
-const path = require("path");
-const { merge } = require("webpack-merge");
-const common = require("./webpack.common.js");
+const path = require('path');
+const { merge } = require('webpack-merge');
+const common = require('./webpack.common.js');
 
 module.exports = merge(common, {
-  mode: "development",
+  mode: 'development',
   devServer: {
-    contentBase: path.join(__dirname, "../src/"),
+    contentBase: path.join(__dirname, '../public'),
     open: true,
     compress: true,
-    port: 8080,
-  },
+    port: 8080
+  }
 });
