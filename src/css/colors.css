@@ -5,7 +5,3 @@
   --success: #07b255;
   --error: #fe544a;
 }
-
-.bg-primary-dark {
-  background-color: color-mod(#7048e8 blackness(20%));
-}

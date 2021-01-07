@@ -12,6 +12,7 @@ module.exports = {
         shd5: '#CABBF7',
         shd6: '#DCD2F9',
         shd7: '#EDE8FC',
+        dark: 'color-mod(#7048e8 blackness(20%))',
         gshd1: 'color-mod(var(--primary) alpha(90%))',
         gshd2: 'color-mod(var(--primary) alpha(80%))',
         gshd3: 'color-mod(var(--primary) alpha(60%))',
