@@ -11,7 +11,14 @@ module.exports = {
         shd4: '#B8A4F4',
         shd5: '#CABBF7',
         shd6: '#DCD2F9',
-        shd7: '#EDE8FC'
+        shd7: '#EDE8FC',
+        gshd1: 'color-mod(var(--primary) alpha(90%))',
+        gshd2: 'color-mod(var(--primary) alpha(80%))',
+        gshd3: 'color-mod(var(--primary) alpha(60%))',
+        gshd4: 'color-mod(var(--primary) alpha(47%))',
+        gshd5: 'color-mod(var(--primary) alpha(35%))',
+        gshd6: 'color-mod(var(--primary) alpha(23%))',
+        gshd7: 'color-mod(var(--primary) alpha(12%))'
       },
       accent: {
         DEFAULT: '#00A8E8',
@@ -21,7 +28,14 @@ module.exports = {
         shd4: '#73D7FF',
         shd5: '#96E1FF',
         shd6: '#B9EBFF',
-        shd7: '#DCF5FF'
+        shd7: '#DCF5FF',
+        gshd1: 'color-mod(var(--accent) alpha(90%))',
+        gshd2: 'color-mod(var(--accent) alpha(80%))',
+        gshd3: 'color-mod(var(--accent) alpha(60%))',
+        gshd4: 'color-mod(var(--accent) alpha(47%))',
+        gshd5: 'color-mod(var(--accent) alpha(35%))',
+        gshd6: 'color-mod(var(--accent) alpha(23%))',
+        gshd7: 'color-mod(var(--accent) alpha(12%))'
       },
       warning: {
         DEFAULT: '#FF933B',
@@ -31,7 +45,14 @@ module.exports = {
         shd4: '#FFCA9E',
         shd5: '#FFD7B6',
         shd6: '#FFE4CF',
-        shd7: '#FFF2E7'
+        shd7: '#FFF2E7',
+        gshd1: 'color-mod(var(--warning) alpha(90%))',
+        gshd2: 'color-mod(var(--warning) alpha(80%))',
+        gshd3: 'color-mod(var(--warning) alpha(60%))',
+        gshd4: 'color-mod(var(--warning) alpha(47%))',
+        gshd5: 'color-mod(var(--warning) alpha(35%))',
+        gshd6: 'color-mod(var(--warning) alpha(23%))',
+        gshd7: 'color-mod(var(--warning) alpha(12%))'
       },
       success: {
         DEFAULT: '#07B255',
@@ -41,7 +62,14 @@ module.exports = {
         shd4: '#62F8A6',
         shd5: '#89FABC',
         shd6: '#B1FCD2',
-        shd7: '#D8FDE9'
+        shd7: '#D8FDE9',
+        gshd1: 'color-mod(var(--success) alpha(90%))',
+        gshd2: 'color-mod(var(--success) alpha(80%))',
+        gshd3: 'color-mod(var(--success) alpha(60%))',
+        gshd4: 'color-mod(var(--success) alpha(47%))',
+        gshd5: 'color-mod(var(--success) alpha(35%))',
+        gshd6: 'color-mod(var(--success) alpha(23%))',
+        gshd7: 'color-mod(var(--success) alpha(12%))'
       },
       error: {
         DEFAULT: '#FE544A',
@@ -51,7 +79,14 @@ module.exports = {
         shd4: '#FFA8A4',
         shd5: '#FFBEBA',
         shd6: '#FFD4D1',
-        shd7: '#FFE9E8'
+        shd7: '#FFE9E8',
+        gshd1: 'color-mod(var(--error) alpha(90%))',
+        gshd2: 'color-mod(var(--error) alpha(80%))',
+        gshd3: 'color-mod(var(--error) alpha(60%))',
+        gshd4: 'color-mod(var(--error) alpha(47%))',
+        gshd5: 'color-mod(var(--error) alpha(35%))',
+        gshd6: 'color-mod(var(--error) alpha(23%))',
+        gshd7: 'color-mod(var(--error) alpha(12%))'
       },
       dark: {
         DEFAULT: '#00171F',
