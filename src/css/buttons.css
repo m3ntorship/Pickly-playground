@@ -18,7 +18,7 @@
 .btn--secondary:hover {
   background-color: #fafafc;
 }
-.btn--primary{
+.btn--primary {
   border: 9px solid red;
 }
 .btn--primary {
@@ -65,4 +65,67 @@
 /* Show the indicator (dot/circle) when checked */
 .radio__input:checked ~ .radio__checkmark .radio__dot {
   @apply block;
+}
+.hover-state:hover {
+  background-color: #5f3dc4;
+}
+
+.focus-state:focus {
+  border: 2px solid #5034a6;
+}
+
+.opacity {
+  opacity: 0.24;
+}
+
+.btn-primary {
+  @apply bg-primary text-white rounded-full hover-state focus:outline-none focus-state flex items-center justify-center content-center mb-5;
+}
+
+.btn-primary-opacity {
+  @apply bg-primary bg-opacity-24 text-white rounded-full focus:outline-none flex items-center justify-center content-center mb-5;
+}
+
+.btn-secondary {
+  @apply bg-white text-primary border border-primary rounded-full hover:bg-grey-bg focus:outline-none focus-state flex items-center justify-center content-center mb-5;
+}
+
+.btn-secondary-opacity {
+  @apply bg-white opacity-25 text-primary border border-primary rounded-full  focus:outline-none flex items-center justify-center content-center mb-5;
+}
+
+.check-it {
+  @apply w-l h-l appearance-none outline-none border border-grey-shd4 rounded-sm text-white align-baseline;
+}
+
+.svg-check {
+  @apply absolute bottom-3.5 invisible;
+}
+
+.check-box input:checked,
+.check-box input:checked + .svg-check {
+  visibility: visible;
+  background-color: #5f3dc4;
+}
+
+.default-form {
+  @apply w-72 h-10 border outline-none rounded-md text-sm py-2.5 px-10 mb-10;
+}
+
+.svg-form {
+  @apply absolute right-3.5;
+  top: 2.875rem;
+}
+
+.svg-form-left {
+  @apply absolute left-3.5 top-11;
+}
+
+/* Radio buttons*/
+input[type='radio']:checked {
+  background-color: #7048e8;
+}
+
+.radio-button:active > label input[type='radio']:checked {
+  background-color: #7048e8;
 }
