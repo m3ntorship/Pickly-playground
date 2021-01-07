@@ -1,0 +1,153 @@
+body {
+  background-color: white;
+}
+
+.btn {
+  @apply bg-primary justify-center align-middle  rounded-xl text-white  p-1 cursor-pointer ml-3 font-sans;
+}
+.btn-disabled {
+  @apply bg-primary  justify-center align-middle rounded-xl text-white  p-1 cursor-default opacity-25 ml-3;
+}
+
+.btn-secondery {
+  @apply bg-white justify-center align-middle  rounded-xl text-primary  p-1 cursor-pointer ml-3 border-primary border;
+}
+
+.btn-secondery-disabled {
+  @apply bg-white  justify-center align-middle rounded-xl text-primary  p-1 cursor-default opacity-25 ml-3 border-solid border-primary border-2;
+}
+
+.btn-secondery:hover {
+  @apply bg-grey-bg;
+}
+
+.btn-secondery:focus {
+  @apply border-2 outline-none;
+}
+
+.btn-secondery-disabled:focus {
+  @apply outline-none;
+}
+
+.btn-disabled:focus {
+  @apply outline-none;
+}
+
+.btn:hover {
+  background-color: #5f3dc4;
+}
+
+.btn:focus {
+  @apply border-2 outline-none;
+}
+
+.btn-circle-radius {
+  border-radius: 50%;
+}
+
+/*working With Checkbox*/
+
+.container {
+  @apply block relative  cursor-pointer select-none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  @apply absolute cursor-pointer w-0 h-0 select-none opacity-0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  @apply absolute top-0 left-0 w-6 h-6 border-grey-shd4 border bg-white rounded-sm;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  @apply bg-primary;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+/**********************Radio Button***************************************************************************************/
+.container2 {
+  @apply block relative  cursor-pointer select-none;
+}
+
+/* Hide the browser's default radio button */
+.container2 input {
+  @apply absolute cursor-pointer w-0 h-0 select-none opacity-0;
+}
+
+/* Create a custom radio button */
+.checkmark2 {
+  @apply absolute top-0 left-0 h-4 w-4 rounded-xl bg-primary;
+}
+/* On mouse-over, add a grey background color */
+.container2:hover input ~ .checkmark2 {
+  @apply bg-grey-shd6;
+}
+
+/* When the radio button is checked, add a blue background */
+.container2 input:checked ~ .checkmark2 {
+  @apply bg-primary;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark2:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container2 input:checked ~ .checkmark2:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container2 .checkmark2:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+.outer {
+  position: relative;
+  border-radius: 50%;
+}
+
+.inner {
+  top: 25%;
+  left: 25%; /* of the container */
+  position: relative;
+  border-radius: 50%;
+}
