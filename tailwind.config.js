@@ -72,6 +72,9 @@ module.exports = {
       },
       white: {
         DEFAULT: '#FFFFFF'
+      },
+      transparent: {
+        DEFAULT: 'transparent'
       }
     },
     borderRadius: {

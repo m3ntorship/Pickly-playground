@@ -1,2 +1,13 @@
 .banner {
 }
+
+#upload-container{
+    width: 704px;
+}
+.tab-poll input:checked{
+    background-color: #FAFAFC;
+}
+ .image-container{
+   width: 704px;
+   height: 708px;
+}
