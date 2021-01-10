@@ -7,3 +7,5 @@
 @import "./tailwind.css";
 
 @import "tailwindcss/utilities";
+
+@import "colors.css";
