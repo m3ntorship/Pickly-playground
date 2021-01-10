@@ -24,5 +24,7 @@ module.exports = {
   rules: {
     "prettier/prettier": "error",
     "react/no-unescaped-entities": 0,
+    "react/prop-types": 0,
+    "react/jsx-no-duplicate-props": 0,
   },
 };
