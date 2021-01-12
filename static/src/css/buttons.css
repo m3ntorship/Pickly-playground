@@ -40,27 +40,27 @@
 .tab-poll{
   padding-right: 12px;
 }
-.checkmark{
+.checkmark-overlay{
   @apply h-4 w-4 rounded-full border border-primary  bg-white text-transparent absolute left-0 top-1 mr-2 hover:bg-grey-shd4 transition duration-500 ease-in-out;
 }
 
-input:checked ~ .checkmark {
+input:checked ~ .checkmark-overlay {
   background-color: #7048E8;
 }
 
-.checkmark:after {
+.checkmark-overlay:after {
   content: "";
   position: absolute;
   display: none;
 }
 /* Show the indicator (dot/circle) when checked */
-input:checked ~ .checkmark:after {
+input:checked ~ .checkmark-overlay:after {
   display: block;
 }
 /* Style the indicator (dot/circle) */
-.checkmark:after {
-	top: 4px;
-	left: 4px;
+.checkmark-overlay:after {
+	top: 3px;
+	left: 3px;
 	width: 6px;
 	height: 6px;
 	border-radius: 999px;
