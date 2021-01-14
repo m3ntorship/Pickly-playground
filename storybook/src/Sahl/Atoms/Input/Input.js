@@ -43,9 +43,9 @@ export default function Input(props) {
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
           d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"
         ></path>
       </svg>
@@ -63,9 +63,9 @@ export default function Input(props) {
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
           d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
         ></path>
       </svg>
@@ -95,9 +95,9 @@ export default function Input(props) {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
                 ></path>
               </svg>
@@ -118,7 +118,12 @@ export default function Input(props) {
                 />
               </svg>
             ) : null}
-            {dropDownPrefix && <SelectDropDown options={dropDownOptions} className='border-r border-grey-shd5 pr-2 br mr-4'/>}
+            {dropDownPrefix && (
+              <SelectDropDown
+                options={dropDownOptions}
+                className="border-r border-grey-shd5 pr-2 br mr-4"
+              />
+            )}
             <input
               id={name}
               disabled={disabled}
@@ -157,7 +162,7 @@ export default function Input(props) {
 
     case "file":
       markup = (
-        <button class="relative border-2 border-dashed border-accent bg-grey-shd7 rounded-md text-accent focus:outline-none flex justify-center items-center mx-2 sm:mx-0 w-full h-14">
+        <button className="relative border-2 border-dashed border-accent bg-grey-shd7 rounded-md text-accent focus:outline-none flex justify-center items-center mx-2 sm:mx-0 w-full h-14">
           <input
             disabled={disabled}
             type={type}
@@ -169,7 +174,7 @@ export default function Input(props) {
             className="cursor-pointer opacity-0 absolute w-full h-full border-2 border-success"
           />
           <svg
-            class="mr-1 w-4 h-4 fill-current"
+            className="mr-1 w-4 h-4 fill-current"
             viewBox="0 0 24 24"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
@@ -184,7 +189,7 @@ export default function Input(props) {
               fill="currentColor"
             />
           </svg>
-          <span class="text-link">Upload one or multiple images</span>
+          <span className="text-link">Upload one or multiple images</span>
         </button>
       );
       break;

@@ -5,7 +5,9 @@ export default function ThumpsUp(props) {
   const { width, height, color, className } = props;
   return (
     <svg
-      className={`${width || "w-6"} ${height || "h-6"} ${className} fill-current inline-block`}
+      className={`${width || "w-6"} ${
+        height || "h-6"
+      } ${className} fill-current inline-block`}
       viewBox="0 0 100 100"
       fill={`${color || "black"}`}
       xmlns="http://www.w3.org/2000/svg"

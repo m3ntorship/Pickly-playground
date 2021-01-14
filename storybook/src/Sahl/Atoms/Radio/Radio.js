@@ -27,8 +27,7 @@ export default function Radio(props) {
     "group",
   ];
   // Add the props classes
-  if (className)
-    labelClasses = [...labelClasses, className];
+  if (className) labelClasses = [...labelClasses, className];
 
   // CustomRadio Classes
   let customRadioClasses = [

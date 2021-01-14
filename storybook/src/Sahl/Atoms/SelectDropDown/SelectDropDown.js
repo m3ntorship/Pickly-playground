@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ArrowDown from '../../../assets/icons/DownArrow'
+import ArrowDown from "../../../assets/icons/DownArrow";
 
 function SelectDropDown(props) {
   const { className, options, label } = props;
@@ -25,7 +25,11 @@ function SelectDropDown(props) {
             </option>
           ))}
         </select>
-        <ArrowDown width='w-4' height='h-4' className=' cursor-pointer -ml-3.5'/>
+        <ArrowDown
+          width="w-4"
+          height="h-4"
+          className=" cursor-pointer -ml-3.5"
+        />
       </div>
     </div>
   );
@@ -34,7 +38,7 @@ function SelectDropDown(props) {
 SelectDropDown.propTypes = {
   options: PropTypes.array.isRequired,
   className: PropTypes.string,
-  label: PropTypes.string
+  label: PropTypes.string,
 };
 
 export default SelectDropDown;

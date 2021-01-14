@@ -19,12 +19,12 @@ describe("Radio Component", () => {
   });
 
   it("should render with large size when size='large'", () => {
-    const tree = renderer.create(<Radio name="polls" size='large'/>).toJSON();
+    const tree = renderer.create(<Radio name="polls" size="large" />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it("should render with disabled when passing disabled", () => {
-    const tree = renderer.create(<Radio name="polls" disabled/>).toJSON();
+    const tree = renderer.create(<Radio name="polls" disabled />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
@@ -34,7 +34,9 @@ describe("Radio Component", () => {
   });
 
   it("should render with label when passing label='testLabel'", () => {
-    const tree = renderer.create(<Radio name="polls" label='testLabel'/>).toJSON();
+    const tree = renderer
+      .create(<Radio name="polls" label="testLabel" />)
+      .toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

@@ -14,8 +14,8 @@ const Template = (args) => <Tab {...args} />;
 export const Default = Template.bind({});
 Default.args = {
   type: "default",
-  label: 'Label',
-  disabled: 'false',
+  label: "Label",
+  disabled: "false",
 };
 
 /* export const PollImage = Template.bind({});
