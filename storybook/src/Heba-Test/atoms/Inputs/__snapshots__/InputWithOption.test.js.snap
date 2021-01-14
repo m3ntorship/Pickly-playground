@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`name return input with option cade A 1`] = `
+<div
+  className="h-10 w-18xl flex flex-row items-center border rounded-bl-md rounded-br-md  border-grey-shd5"
+>
+  <svg
+    className="my-3 mr-3 ml-1.5"
+    fill="none"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M0 4C0 1.79086 1.79086 0 4 0H20C22.2091 0 24 1.79086 24 4V20C24 22.2091 22.2091 24 20 24H4C1.79086 24 0 22.2091 0 20V4Z"
+      fill="#F2F9FF"
+    />
+    <path
+      d="M14.085 14.4023H9.91504L8.97852 17H7.625L11.4258 7.04688H12.5742L16.3818 17H15.0352L14.085 14.4023ZM10.3115 13.3223H13.6953L12 8.66699L10.3115 13.3223Z"
+      fill="#8D9A9E"
+    />
+  </svg>
+  <input
+    className="w-60 h-5 font-sans text-sm my-3 text-grey-shd1"
+    placeholder="Type caption (optional)"
+  />
+</div>
+`;

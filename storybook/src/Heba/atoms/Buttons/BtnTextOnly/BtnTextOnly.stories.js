@@ -1,8 +1,8 @@
 import React from "react";
-import { Button, BUTTON_OPTIONS } from "../Buttons/Button";
+import { Button, BUTTON_OPTIONS } from "./BtnTextOnly";
 
 export default {
-  title: "Pickly/storybook/Buttons",
+  title: "Heba/atoms/Buttons/BtnTextOnly",
   component: Button,
   argTypes: {
     size: {
@@ -18,11 +18,9 @@ export default {
   },
 };
 const Template = (args) => <Button {...args} />;
-
 export const Primary = Template.bind({});
 Primary.args = {
-  primary: true,
+  children: "Button Text",
+  iconDir: true,
   size: BUTTON_OPTIONS.SIZE.BIG,
 };
-export const Secondary = Template.bind({});
-Secondary.args = { ...Primary.args, primary: false };

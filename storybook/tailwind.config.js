@@ -116,7 +116,8 @@ module.exports = {
 		  xxl: '2.5rem',
 		  '3xl': '3rem',
 		  '4xl': '4rem',
-		  '5xl': '8rem'
+		  '5xl': '8rem',
+		  '16xl': '16rem'
 		},
   
 		backgroundOpacity: {
@@ -136,14 +137,12 @@ module.exports = {
 		  '37xl':'37.5rem',
 		  '8xl':'8.8125rem',
 		  '4sxl':'4.1875rem',
-		  '18xl':'18.5rem',
+		  '50xl':'50rem',
   
 		},
 		height:{
 		  '61xl':'61.0625rem',
 		  '21xl':'21.25rem',
-  
-  
 		}
 	  }
 	},

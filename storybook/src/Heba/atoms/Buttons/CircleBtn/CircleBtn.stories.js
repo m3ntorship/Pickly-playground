@@ -1,8 +1,8 @@
 import React from "react";
-import { Button, BUTTON_OPTIONS } from "./Select";
+import { Button, BUTTON_OPTIONS } from "./CircleBtn";
 
 export default {
-  title: "Pickly/storybook/Choice/InputSize",
+  title: "Heba/atoms/Buttons/CircleButton",
   component: Button,
   argTypes: {
     size: {
@@ -18,9 +18,11 @@ export default {
   },
 };
 const Template = (args) => <Button {...args} />;
+
 export const Primary = Template.bind({});
 Primary.args = {
-  children: "Button Text",
-  iconDir: true,
+  primary: true,
   size: BUTTON_OPTIONS.SIZE.BIG,
 };
+export const Secondary = Template.bind({});
+Secondary.args = { ...Primary.args, primary: false };
