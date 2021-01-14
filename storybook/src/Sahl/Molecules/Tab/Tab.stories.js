@@ -3,7 +3,7 @@ import React from "react";
 import Tab from "./Tab";
 
 const defaultExport = {
-  title: "Sahl/Atoms/Tab",
+  title: "Sahl/Molecules/Tab",
   component: Tab,
 };
 
