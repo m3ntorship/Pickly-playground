@@ -15,5 +15,5 @@ export const Default = Template.bind({});
 Default.args = {
   type: "default",
   label: "Label",
-  disabled: "false",
+  disabled: false,
 };
