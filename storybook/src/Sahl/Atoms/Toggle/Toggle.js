@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 export default function Toggle(props) {
   // Props
-  const { disabled = false, size = "large", onChange } = props;
+  const { disabled = false, size = "lg", onChange } = props;
 
   const [checked, setChecked] = useState(false);
 
@@ -19,7 +19,7 @@ export default function Toggle(props) {
     "focus:border-2",
     "group",
   ];
-  size === "large"
+  size === "lg"
     ? containerClasses.push("w-10 h-6 ")
     : containerClasses.push("w-7 h-4 ");
 
@@ -70,12 +70,12 @@ export default function Toggle(props) {
     "transition",
     "duration-300",
   ];
-  size === "large"
+  size === "lg"
     ? (toggleClasses = [...toggleClasses, "w-4 h-4", "bottom-1"])
     : (toggleClasses = [...toggleClasses, "w-3 h-3", "bottom-0.5"]);
   !checked
     ? toggleClasses.push("bg-white")
-    : size === "large"
+    : size === "lg"
     ? (toggleClasses = [
         ...toggleClasses,
         "bg-primary-shd8",
@@ -114,6 +114,6 @@ export default function Toggle(props) {
 
 Toggle.propTypes = {
   disabled: PropTypes.bool,
-  size: PropTypes.oneOf(["small", "large"]),
+  size: PropTypes.oneOf(["sm", "lg"]),
   onChange: PropTypes.func,
 };

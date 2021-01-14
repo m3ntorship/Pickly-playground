@@ -17,7 +17,7 @@ const Template = (args) => <Toggle {...args} />;
 export const Enabled = Template.bind({});
 Enabled.args = {
   disabled: false,
-  size: "large",
+  size: "lg",
 };
 
 export const Disabled = Template.bind({});
