@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ArrowDown from "../../../assets/icons/DownArrow";
+import ArrowDown from "../../assets/icons/DownArrow";
 
 function SelectDropDown(props) {
   const { className, options, label } = props;
