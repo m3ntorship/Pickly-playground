@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Radio from "../Radio/Radio";
+import Radio from "../../Atoms/Radio/Radio";
 
 export default function Tab(props) {
   const {
