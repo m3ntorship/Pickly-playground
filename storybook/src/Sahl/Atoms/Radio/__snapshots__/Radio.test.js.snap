@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Radio Component should give a console error when running without any props 1`] = `
+<label
+  className="flex items-center justify-end relative cursor-pointer rounded-full group"
+>
+  <input
+    checked="false"
+    className="opacity-0 relative z-10"
+    disabled={false}
+    type="radio"
+  />
+  <div
+    className="absolute inset-0 m-auto border border-solid rounded-full border-primary bg-primary group-hover:bg-primary-shd8 h-4 w-4"
+  >
+    <div
+      className="bg-white rounded-full w-1/2 h-1/2 absolute z-10 inset-0 m-auto block"
+    />
+  </div>
+  <span
+    className="block"
+  />
+</label>
+`;
+
+exports[`Radio Component should render correctly when passing only name prop 1`] = `
+<label
+  className="flex items-center justify-end relative cursor-pointer rounded-full group"
+>
+  <input
+    checked="false"
+    className="opacity-0 relative z-10"
+    disabled={false}
+    name="polls"
+    type="radio"
+  />
+  <div
+    className="absolute inset-0 m-auto border border-solid rounded-full border-primary bg-primary group-hover:bg-primary-shd8 h-4 w-4"
+  >
+    <div
+      className="bg-white rounded-full w-1/2 h-1/2 absolute z-10 inset-0 m-auto block"
+    />
+  </div>
+  <span
+    className="block"
+  />
+</label>
+`;
+
+exports[`Radio Component should render with default size without passing size prop 1`] = `
+<label
+  className="flex items-center justify-end relative cursor-pointer rounded-full group"
+>
+  <input
+    checked="false"
+    className="opacity-0 relative z-10"
+    disabled={false}
+    name="polls"
+    type="radio"
+  />
+  <div
+    className="absolute inset-0 m-auto border border-solid rounded-full border-primary bg-primary group-hover:bg-primary-shd8 h-4 w-4"
+  >
+    <div
+      className="bg-white rounded-full w-1/2 h-1/2 absolute z-10 inset-0 m-auto block"
+    />
+  </div>
+  <span
+    className="block"
+  />
+</label>
+`;
+
+exports[`Radio Component should render with disabled when passing disabled 1`] = `
+<label
+  className="flex items-center justify-end relative cursor-pointer rounded-full group opacity-40"
+>
+  <input
+    checked="false"
+    className="opacity-0 relative z-10"
+    disabled={true}
+    name="polls"
+    type="radio"
+  />
+  <div
+    className="absolute inset-0 m-auto border border-solid rounded-full border-primary bg-primary group-hover:bg-primary-shd8 h-4 w-4"
+  >
+    <div
+      className="bg-white rounded-full w-1/2 h-1/2 absolute z-10 inset-0 m-auto block"
+    />
+  </div>
+  <span
+    className="block"
+  />
+</label>
+`;
+
+exports[`Radio Component should render with label when passing label='testLabel' 1`] = `
+<label
+  className="flex items-center justify-end relative cursor-pointer rounded-full group"
+>
+  <input
+    checked="false"
+    className="opacity-0 relative z-10"
+    disabled={false}
+    name="polls"
+    type="radio"
+  />
+  <div
+    className="absolute inset-0 m-auto border border-solid rounded-full border-primary bg-primary group-hover:bg-primary-shd8 h-4 w-4"
+  >
+    <div
+      className="bg-white rounded-full w-1/2 h-1/2 absolute z-10 inset-0 m-auto block ml-12"
+    />
+  </div>
+  <span
+    className="block"
+  >
+    testLabel
+  </span>
+</label>
+`;
+
+exports[`Radio Component should render with large size when size='large' 1`] = `
+<label
+  className="flex items-center justify-end relative cursor-pointer rounded-full group"
+>
+  <input
+    checked="false"
+    className="opacity-0 relative z-10"
+    disabled={false}
+    name="polls"
+    type="radio"
+  />
+  <div
+    className="absolute inset-0 m-auto border border-solid rounded-full border-primary bg-primary group-hover:bg-primary-shd8 h-6 w-6"
+  >
+    <div
+      className="bg-white rounded-full w-1/2 h-1/2 absolute z-10 inset-0 m-auto block"
+    />
+  </div>
+  <span
+    className="block"
+  />
+</label>
+`;
+
+exports[`Radio Component should render without label by default 1`] = `
+<label
+  className="flex items-center justify-end relative cursor-pointer rounded-full group"
+>
+  <input
+    checked="false"
+    className="opacity-0 relative z-10"
+    disabled={false}
+    name="polls"
+    type="radio"
+  />
+  <div
+    className="absolute inset-0 m-auto border border-solid rounded-full border-primary bg-primary group-hover:bg-primary-shd8 h-4 w-4"
+  >
+    <div
+      className="bg-white rounded-full w-1/2 h-1/2 absolute z-10 inset-0 m-auto block"
+    />
+  </div>
+  <span
+    className="block"
+  />
+</label>
+`;
