@@ -6,6 +6,8 @@
 .pnp.js
 /.eslintcache
 /storybook/.eslintcache
+.eslintcache
+./eslintcache
 # testing
 /coverage
 
