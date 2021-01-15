@@ -1,0 +1,8 @@
+:root {
+  --primary: hsl(255, 78%, 60%);
+  --accent: hsl(197, 100%, 45%);
+  --warning: hsl(27, 100%, 62%);
+  --success: hsl(147, 92%, 36%);
+  --error: hsl(3, 99%, 64%);
+  --grey: hsl(194, 8%, 59%);
+}
