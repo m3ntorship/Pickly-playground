@@ -1,8 +1,8 @@
 import React from "react";
-import { Button, BUTTON_OPTIONS } from "./Button";
+import { Button, BUTTON_OPTIONS } from "./Buttonk";
 
 export default {
-  title: "Atoms/Buttons",
+  title: "Button",
   component: Button,
   argTypes: {
     size: {
