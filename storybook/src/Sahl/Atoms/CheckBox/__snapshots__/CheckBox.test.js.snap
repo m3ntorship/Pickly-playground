@@ -2,7 +2,7 @@
 
 exports[`CheckBox component should be disabled when passing disabled 1`] = `
 <div
-  class="relative flex justify-center items-center w-6 h-6 rounded-sm border border-grey-shd4 hover:border-grey-shd1 false opacity-30 focus:outline-none focus:border-2"
+  className="relative flex justify-center items-center w-6 h-6 rounded-sm border border-grey-shd4 hover:border-grey-shd1 false opacity-30 focus:outline-none focus:border-2"
 >
   <input
     className="absolute opacity-0 cursor-pointer w-full h-full"
@@ -15,7 +15,7 @@ exports[`CheckBox component should be disabled when passing disabled 1`] = `
 
 exports[`CheckBox component should be rendered with large size no size is passed 1`] = `
 <div
-  class="relative flex justify-center items-center w-6 h-6 rounded-sm border border-grey-shd4 hover:border-grey-shd1 false opacity-30 focus:outline-none focus:border-2"
+  className="relative flex justify-center items-center w-6 h-6 rounded-sm border border-grey-shd4 hover:border-grey-shd1 false opacity-30 focus:outline-none focus:border-2"
 >
   <input
     className="absolute opacity-0 cursor-pointer w-full h-full"
@@ -28,7 +28,7 @@ exports[`CheckBox component should be rendered with large size no size is passed
 
 exports[`CheckBox component should be rendered with large size when size=small 1`] = `
 <div
-  class="relative flex justify-center items-center w-6 h-6 rounded-sm border border-grey-shd4 hover:border-grey-shd1 false opacity-30 focus:outline-none focus:border-2"
+  className="relative flex justify-center items-center w-6 h-6 rounded-sm border border-grey-shd4 hover:border-grey-shd1 false opacity-30 focus:outline-none focus:border-2"
 >
   <input
     className="absolute opacity-0 cursor-pointer w-full h-full"
@@ -41,7 +41,7 @@ exports[`CheckBox component should be rendered with large size when size=small 1
 
 exports[`CheckBox component should render without passing any props 1`] = `
 <div
-  class="relative flex justify-center items-center w-6 h-6 rounded-sm border border-grey-shd4 hover:border-grey-shd1 false false focus:outline-none focus:border-2"
+  className="relative flex justify-center items-center w-6 h-6 rounded-sm border border-grey-shd4 hover:border-grey-shd1 false false focus:outline-none focus:border-2"
 >
   <input
     className="absolute opacity-0 cursor-pointer w-full h-full"

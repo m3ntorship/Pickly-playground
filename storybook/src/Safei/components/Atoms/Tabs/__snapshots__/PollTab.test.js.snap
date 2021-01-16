@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test my PollTab components renders a PollTab Button  1`] = `
+<button
+  className="group text-sm relative flex items-center justify-around px-3.5 py-1.5 h-8 border border-grey border-opacity-0 bg-grey-shd7  hover:bg-white hover:border-opacity-100  rounded-full focus:outline-none transition duration-500 ease-in-out"
+  style={
+    Object {
+      "marginRight": "18px",
+      "paddingRight": "12px",
+    }
+  }
+>
+  <label
+    className="cursor-pointer relative flex items-center justify-items-center content-center"
+    htmlFor="poll-option"
+  >
+    <input
+      className="bg-primary opacity-0"
+      name="poll-option"
+      style={
+        Object {
+          "zIndex": 3,
+        }
+      }
+      type="radio"
+    />
+    <span
+      className="checkmark h-4 w-4 rounded-full border border-primary  bg-white text-transparent absolute left-0 top-1 mr-2 hover:bg-grey-shd4 transition duration-500 ease-in-out"
+    >
+       
+    </span>
+    <span
+      className="ml-2 scale-50"
+    />
+    <span
+      className="ml-2 text-sm font-medium"
+    >
+      Default Poll
+    </span>
+  </label>
+</button>
+`;
