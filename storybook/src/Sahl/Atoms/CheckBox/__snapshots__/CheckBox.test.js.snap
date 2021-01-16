@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckBox component should be disabled when passing disabled 1`] = `
+<div
+  className="relative flex justify-center items-center w-6 h-6 rounded-sm border border-grey-shd4 hover:border-grey-shd1 false opacity-30 focus:outline-none focus:border-2"
+>
+  <input
+    className="absolute opacity-0 cursor-pointer w-full h-full"
+    disabled={true}
+    onChange={[Function]}
+    type="checkbox"
+  />
+</div>
+`;
+
+exports[`CheckBox component should be rendered with large size no size is passed 1`] = `
+<div
+  className="relative flex justify-center items-center w-6 h-6 rounded-sm border border-grey-shd4 hover:border-grey-shd1 false opacity-30 focus:outline-none focus:border-2"
+>
+  <input
+    className="absolute opacity-0 cursor-pointer w-full h-full"
+    disabled={true}
+    onChange={[Function]}
+    type="checkbox"
+  />
+</div>
+`;
+
+exports[`CheckBox component should be rendered with large size when size=small 1`] = `
+<div
+  className="relative flex justify-center items-center w-6 h-6 rounded-sm border border-grey-shd4 hover:border-grey-shd1 false opacity-30 focus:outline-none focus:border-2"
+>
+  <input
+    className="absolute opacity-0 cursor-pointer w-full h-full"
+    disabled={true}
+    onChange={[Function]}
+    type="checkbox"
+  />
+</div>
+`;
+
+exports[`CheckBox component should render without passing any props 1`] = `
+<div
+  className="relative flex justify-center items-center w-6 h-6 rounded-sm border border-grey-shd4 hover:border-grey-shd1 false false focus:outline-none focus:border-2"
+>
+  <input
+    className="absolute opacity-0 cursor-pointer w-full h-full"
+    disabled={false}
+    onChange={[Function]}
+    type="checkbox"
+  />
+</div>
+`;

@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the avatar comp renders  large Avatar  1`] = `
+<div
+  className="inline-block"
+>
+  <img
+    className="rounded-full h-14 w-14 mt-1"
+    src="/default.svg"
+  />
+</div>
+`;
+
+exports[`renders the avatar comp renders  md Avatar  1`] = `
+<div
+  className="inline-block"
+>
+  <img
+    className="rounded-full h-10 w-10 mt-1"
+    src="/default.svg"
+  />
+</div>
+`;
+
+exports[`renders the avatar comp renders  no props  Avatar, should display a small  avatar with default photo  1`] = `
+<div
+  className="inline-block"
+>
+  <img
+    className="rounded-full h-8 w-8  mt-1"
+    src="/default.svg"
+  />
+</div>
+`;
+
+exports[`renders the avatar comp renders  small  Avatar with default photo on file  1`] = `
+<div
+  className="inline-block"
+>
+  <img
+    className="rounded-full h-8 w-8  mt-1"
+    src="/default.svg"
+  />
+</div>
+`;
