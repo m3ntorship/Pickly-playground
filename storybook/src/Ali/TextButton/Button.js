@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 
 const Button = (props) => {
   const { disabled, size, variant, children } = props;
+
   return (
     <button
       disabled={disabled}
