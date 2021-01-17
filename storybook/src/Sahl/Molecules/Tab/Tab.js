@@ -84,8 +84,8 @@ export default function Tab(props) {
 Tab.propTypes = {
   type: PropTypes.oneOf(["default", "poll"]),
   pollType: PropTypes.oneOf(["image", "text", "survey"]),
-  onClick: PropTypes.func,
+  // onClick: PropTypes.func,
   label: PropTypes.string.isRequired,
   disabled: PropTypes.bool,
-  className: PropTypes.string,
+  // className: PropTypes.string,
 };
