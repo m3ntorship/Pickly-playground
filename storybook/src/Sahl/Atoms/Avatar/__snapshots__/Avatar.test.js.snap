@@ -6,7 +6,6 @@ exports[`Avatar Component should render anonymous pic when passing type=anonymou
 >
   <svg
     className="w-10 h-10 rounded-full"
-    data-testid="anonymous-svg"
     fill="#fff"
     viewBox="0 0 600 600"
     xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +59,6 @@ exports[`Avatar Component should render broken pic when passing type=personal wi
   <img
     alt="Profile Pic"
     className="w-10 h-10 rounded-full object-cover block"
-    data-testid="personal-img"
   />
 </div>
 `;
@@ -71,7 +69,6 @@ exports[`Avatar Component should render large size when passing size=large 1`] =
 >
   <svg
     className="w-14 h-14 rounded-full bg-primary-200"
-    data-testid="default-svg"
     viewBox="0 0 512 512"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -106,7 +103,6 @@ exports[`Avatar Component should render personal pic when passing type=personal 
   <img
     alt="Profile Pic"
     className="w-10 h-10 rounded-full object-cover block"
-    data-testid="personal-img"
     src="/avatar.jpg"
   />
 </div>
@@ -118,7 +114,6 @@ exports[`Avatar Component should render small size when passing size=small 1`] =
 >
   <svg
     className="w-6 h-6 rounded-full bg-primary-200"
-    data-testid="default-svg"
     viewBox="0 0 512 512"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -152,7 +147,6 @@ exports[`Avatar Component should render with type=default, size=medium wihtout p
 >
   <svg
     className="w-10 h-10 rounded-full bg-primary-200"
-    data-testid="default-svg"
     viewBox="0 0 512 512"
     xmlns="http://www.w3.org/2000/svg"
   >
