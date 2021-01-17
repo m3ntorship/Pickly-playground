@@ -35,5 +35,5 @@ export const Divider = ({ type, range, color = "" }) => {
 Divider.propTypes = {
   type: PropTypes.oneOf(["Horizontal", "Vertical"]),
   range: PropTypes.any,
-  color: PropTypes.color,
+  color: PropTypes.string,
 };
