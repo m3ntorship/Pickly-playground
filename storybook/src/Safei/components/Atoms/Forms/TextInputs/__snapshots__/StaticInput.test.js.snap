@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label Input field renders a marked input field disabled with default set up   1`] = `
+<div
+  className="undefined rounded-md  w-64 flex undefined items-start content-center px-1 opacity-50 bg-white label-container hover:border-grey-shd1 focus-within:border-opacity-100 "
+  style={
+    Object {
+      "pointerEvents": "none",
+    }
+  }
+>
+  <div
+    className="pl-1 pr-1 pt-2.5 inline-block"
+  >
+    
+  </div>
+  <div
+    className="inline-block"
+  >
+    <span
+      className="text-sm text-grey border-r-2 border-grey-shd6 pr-1.5"
+    />
+    <input
+      className="px-1.5 py-1 outline-none inline-block"
+      disabled={true}
+      style={
+        Object {
+          "width": "80%",
+        }
+      }
+      type="search"
+    />
+  </div>
+  <div
+    className="pt-2.5 pr-1 mr-3"
+  />
+</div>
+`;
+
+exports[`Label Input field renders a marked input field in normal state with home icon  1`] = `
+<div
+  className="border-dark border border-opacity-25 rounded-md  w-64 flex undefined items-start content-center px-1  bg-white label-container hover:border-grey-shd1 focus-within:border-opacity-100 "
+  style={
+    Object {
+      "pointerEvents": "",
+    }
+  }
+>
+  <div
+    className="pl-1 pr-1 pt-2.5 inline-block"
+  >
+    <svg
+      className="w-3 h-3"
+      fill="none"
+      viewBox="0 0 14 14"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0.999801 7.66669H1.66647V9.00002V12.3334C1.66647 13.0687 2.26447 13.6667 2.9998 13.6667H4.9998H8.9998H10.9998C11.7351 13.6667 12.3331 13.0687 12.3331 12.3334V9.00002V7.66669H12.9998C13.2691 7.66669 13.5131 7.50402 13.6158 7.25536C13.7191 7.00602 13.6618 6.71936 13.4711 6.52869L7.47113 0.528691C7.21047 0.268024 6.78913 0.268024 6.52847 0.528691L0.528467 6.52869C0.337801 6.71936 0.280467 7.00602 0.383801 7.25536C0.486467 7.50402 0.730467 7.66669 0.999801 7.66669ZM5.66647 12.3334V9.00002H8.33313V12.3334H5.66647ZM6.9998 1.94269L10.9998 5.94269V9.00002L11.0005 12.3334H9.66647V9.00002C9.66647 8.26469 9.06847 7.66669 8.33313 7.66669H5.66647C4.93113 7.66669 4.33313 8.26469 4.33313 9.00002V12.3334H2.9998V9.00002V7.00002V5.94269L6.9998 1.94269Z"
+        fill="#5B6366"
+      />
+    </svg>
+  </div>
+  <div
+    className="inline-block"
+  >
+    <span
+      className="text-sm text-grey border-r-2 border-grey-shd6 pr-1.5"
+    />
+    <input
+      className="px-1.5 py-1 outline-none inline-block"
+      style={
+        Object {
+          "width": "80%",
+        }
+      }
+      type="search"
+    />
+  </div>
+  <div
+    className="pt-2.5 pr-1 mr-3"
+  >
+    
+  </div>
+</div>
+`;
+
+exports[`Label Input field renders a marked input field with error icon and prefix +20 1`] = `
+<div
+  className="border-error border rounded-md  w-64 flex undefined items-start content-center px-1  bg-white label-container hover:border-grey-shd1 focus-within:border-opacity-100 "
+  style={
+    Object {
+      "pointerEvents": "",
+    }
+  }
+>
+  <div
+    className="pl-1 pr-1 pt-2.5 inline-block"
+  >
+    
+  </div>
+  <div
+    className="inline-block"
+  >
+    <span
+      className="text-sm text-grey border-r-2 border-grey-shd6 pr-1.5"
+    >
+      +20
+    </span>
+    <input
+      className="px-1.5 py-1 outline-none inline-block"
+      style={
+        Object {
+          "width": "80%",
+        }
+      }
+      type="search"
+    />
+  </div>
+  <div
+    className="pt-2.5 pr-1 mr-3"
+  >
+    <svg
+      className="w-3 h-3"
+      fill="#FE544A"
+      viewBox="0 0 20 20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Label Input field renders a marked input field with icon or prefix  1`] = `
+<div
+  className="border-error border rounded-md  w-64 flex undefined items-start content-center px-1  bg-white label-container hover:border-grey-shd1 focus-within:border-opacity-100 "
+  style={
+    Object {
+      "pointerEvents": "",
+    }
+  }
+>
+  <div
+    className="pl-1 pr-1 pt-2.5 inline-block"
+  >
+    
+  </div>
+  <div
+    className="inline-block"
+  >
+    <span
+      className="text-sm text-grey border-r-2 border-grey-shd6 pr-1.5"
+    />
+    <input
+      className="px-1.5 py-1 outline-none inline-block"
+      style={
+        Object {
+          "width": "80%",
+        }
+      }
+      type="search"
+    />
+  </div>
+  <div
+    className="pt-2.5 pr-1 mr-3"
+  >
+    <svg
+      className="w-3 h-3"
+      fill="#FE544A"
+      viewBox="0 0 20 20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Label Input field renders a marked input field with success icon + home icon + prefix =+20   1`] = `
+<div
+  className="border-success border rounded-md  w-64 flex undefined items-start content-center px-1  bg-white label-container hover:border-grey-shd1 focus-within:border-opacity-100 "
+  style={
+    Object {
+      "pointerEvents": "",
+    }
+  }
+>
+  <div
+    className="pl-1 pr-1 pt-2.5 inline-block"
+  >
+    <svg
+      className="w-3 h-3"
+      fill="none"
+      viewBox="0 0 14 14"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0.999801 7.66669H1.66647V9.00002V12.3334C1.66647 13.0687 2.26447 13.6667 2.9998 13.6667H4.9998H8.9998H10.9998C11.7351 13.6667 12.3331 13.0687 12.3331 12.3334V9.00002V7.66669H12.9998C13.2691 7.66669 13.5131 7.50402 13.6158 7.25536C13.7191 7.00602 13.6618 6.71936 13.4711 6.52869L7.47113 0.528691C7.21047 0.268024 6.78913 0.268024 6.52847 0.528691L0.528467 6.52869C0.337801 6.71936 0.280467 7.00602 0.383801 7.25536C0.486467 7.50402 0.730467 7.66669 0.999801 7.66669ZM5.66647 12.3334V9.00002H8.33313V12.3334H5.66647ZM6.9998 1.94269L10.9998 5.94269V9.00002L11.0005 12.3334H9.66647V9.00002C9.66647 8.26469 9.06847 7.66669 8.33313 7.66669H5.66647C4.93113 7.66669 4.33313 8.26469 4.33313 9.00002V12.3334H2.9998V9.00002V7.00002V5.94269L6.9998 1.94269Z"
+        fill="#5B6366"
+      />
+    </svg>
+  </div>
+  <div
+    className="inline-block"
+  >
+    <span
+      className="text-sm text-grey border-r-2 border-grey-shd6 pr-1.5"
+    >
+      +20
+    </span>
+    <input
+      className="px-1.5 py-1 outline-none inline-block"
+      style={
+        Object {
+          "width": "80%",
+        }
+      }
+      type="search"
+    />
+  </div>
+  <div
+    className="pt-2.5 pr-1 mr-3"
+  >
+    <svg
+      className="w-3 h-3"
+      fill="#07B255"
+      viewBox="0 0 20 20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+</div>
+`;
