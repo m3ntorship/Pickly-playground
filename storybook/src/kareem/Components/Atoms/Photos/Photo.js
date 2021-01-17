@@ -60,7 +60,7 @@ function Photo({ imageSrc, status }) {
       imageStatus = "";
       Zindex = "";
       loader = "hidden";
-      notload = "";
+      notload = "hidden";
 
       // bigLoader = "w-0 h-0";
       // smallLoader = "w-0 h-0";

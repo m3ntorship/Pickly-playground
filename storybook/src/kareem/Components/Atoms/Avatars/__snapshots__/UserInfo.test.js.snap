@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render the UserInfo component Kareem: Render UserInfo  1`] = `
+<div
+  className="flex-col ml-4"
+>
+  <span
+    className="h-5 w-48 font-sans text-sm text-black font-bold block"
+  >
+    Kareem Elhosseny
+  </span>
+  <span
+    className="h-5 w-28 font-sans text-sm text-dark-grey block"
+  >
+    3
+     hours ago
+  </span>
+</div>
+`;

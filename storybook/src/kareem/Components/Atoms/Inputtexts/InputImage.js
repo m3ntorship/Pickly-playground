@@ -1,6 +1,6 @@
 import React from "react";
 
-function InputImage({ fullRound, width, icon, placeholder }) {
+function InputImage({ fullRound, width = "400px", icon, placeholder }) {
   let round = "";
   let iconA = "";
   let iconB = "";
