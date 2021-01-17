@@ -14,24 +14,8 @@ export default defaultExport;
 
 const Template = (args) => <Toggle {...args} />;
 
-export const Enabled = Template.bind({});
-Enabled.args = {
+export const Defualt = Template.bind({});
+Defualt.args = {
   disabled: false,
   size: "lg",
-};
-
-export const Disabled = Template.bind({});
-Disabled.args = {
-  disabled: true,
-  size: "small",
-};
-
-export const Large = Template.bind({});
-Large.args = {
-  size: "large",
-};
-
-export const Small = Template.bind({});
-Small.args = {
-  size: "small",
 };
