@@ -198,7 +198,7 @@ export default function Input(props) {
       break;
   }
 
-  return <div className="bg-success h-28">{markup}</div>;
+  return <>{markup}</>;
 }
 
 Input.propTypes = {
