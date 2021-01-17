@@ -7,7 +7,7 @@ const Button = (props) => {
   return (
     <button
       disabled={disabled}
-      className={`capitalize rounded-full font-bold focus:outline-none disabled:opacity-25 ${
+      className={`capitalize rounded-full focus:outline-none disabled:opacity-25 ${
         variant === "Primary"
           ? `bg-primary-shd1  text-white ${
               !disabled && "hover:bg-primary"
@@ -17,12 +17,12 @@ const Button = (props) => {
             } focus:ring-1 focus:ring-primary-shd1`
       } ${
         size === "Large"
-          ? "text-md px-xl py-s "
+          ? "text-md font-bold px-xl py-3.5 "
           : size === "Medium"
-          ? "text-base px-l py-xs "
-          : "text-sm px-m py-xxs "
+          ? "text-base font-medium px-l py-xs "
+          : "text-sm font-medium px-m py-1.5 "
       }
-      ${disabled ? "cursor-not-allowed" : ""}`}
+      ${disabled && "cursor-not-allowed"}`}
     >
       {children}
     </button>
