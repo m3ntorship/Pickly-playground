@@ -1,0 +1,337 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing ButtonIcon Testing ButtonIcon iconPosition 1`] = `
+<button
+  className="flex items-center rounded-full  bg-primary  text-white hover:bg-primary-shd8 focus:outline-none focus:border-2 focus:border-primary-shd9 focus:border-opacity-100 disabled:opacity-5
+          false,
+          false,
+          false
+          "
+>
+  <svg
+    className="order-first"
+    fill="none"
+    height="16"
+    viewBox="0 0 24 24"
+    width="16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M16.293 9.293L12 13.586L7.70697 9.293L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.293Z"
+      fill="white"
+    />
+  </svg>
+</button>
+`;
+
+exports[`Testing ButtonIcon Testing ButtonIcon iconPosition 2`] = `
+<button
+  className="flex items-center rounded-full  bg-primary  text-white hover:bg-primary-shd8 focus:outline-none focus:border-2 focus:border-primary-shd9 focus:border-opacity-100 disabled:opacity-5
+          false,
+          false,
+          false
+          "
+>
+  <svg
+    className="order-last"
+    fill="none"
+    height="16"
+    viewBox="0 0 24 24"
+    width="16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M16.293 9.293L12 13.586L7.70697 9.293L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.293Z"
+      fill="white"
+    />
+  </svg>
+</button>
+`;
+
+exports[`Testing ButtonIcon Testing ButtonIcon iconPosition left 1`] = `
+<button
+  className="flex items-center rounded-full  bg-primary  text-white hover:bg-primary-shd8 focus:outline-none focus:border-2 focus:border-primary-shd9 focus:border-opacity-100 disabled:opacity-5
+          false,
+          false,
+          false
+          "
+>
+  <svg
+    className="order-first"
+    fill="none"
+    height="16"
+    viewBox="0 0 24 24"
+    width="16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M16.293 9.293L12 13.586L7.70697 9.293L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.293Z"
+      fill="white"
+    />
+  </svg>
+</button>
+`;
+
+exports[`Testing ButtonIcon Testing ButtonIcon iconPosition right 1`] = `
+<button
+  className="flex items-center rounded-full  bg-primary  text-white hover:bg-primary-shd8 focus:outline-none focus:border-2 focus:border-primary-shd9 focus:border-opacity-100 disabled:opacity-5
+          false,
+          false,
+          false
+          "
+>
+  <svg
+    className="order-last"
+    fill="none"
+    height="16"
+    viewBox="0 0 24 24"
+    width="16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M16.293 9.293L12 13.586L7.70697 9.293L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.293Z"
+      fill="white"
+    />
+  </svg>
+</button>
+`;
+
+exports[`Testing ButtonIcon Testing ButtonIcon size big 1`] = `
+<button
+  className="flex items-center rounded-full  bg-primary  text-white hover:bg-primary-shd8 focus:outline-none focus:border-2 focus:border-primary-shd9 focus:border-opacity-100 disabled:opacity-5
+          px-xl py-s font-bold text-md,
+          false,
+          false
+          "
+>
+  <svg
+    className="order-last"
+    fill="none"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M16.293 9.293L12 13.586L7.70697 9.293L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.293Z"
+      fill="white"
+    />
+  </svg>
+</button>
+`;
+
+exports[`Testing ButtonIcon Testing ButtonIcon size big iconPosition left 1`] = `
+<button
+  className="flex items-center rounded-full  bg-primary  text-white hover:bg-primary-shd8 focus:outline-none focus:border-2 focus:border-primary-shd9 focus:border-opacity-100 disabled:opacity-5
+          px-xl py-s font-bold text-md,
+          false,
+          false
+          "
+>
+  <svg
+    className="order-first"
+    fill="none"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M16.293 9.293L12 13.586L7.70697 9.293L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.293Z"
+      fill="white"
+    />
+  </svg>
+</button>
+`;
+
+exports[`Testing ButtonIcon Testing ButtonIcon size big iconPosition right 1`] = `
+<button
+  className="flex items-center rounded-full  bg-primary  text-white hover:bg-primary-shd8 focus:outline-none focus:border-2 focus:border-primary-shd9 focus:border-opacity-100 disabled:opacity-5
+          px-xl py-s font-bold text-md,
+          false,
+          false
+          "
+>
+  <svg
+    className="order-last"
+    fill="none"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M16.293 9.293L12 13.586L7.70697 9.293L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.293Z"
+      fill="white"
+    />
+  </svg>
+</button>
+`;
+
+exports[`Testing ButtonIcon Testing ButtonIcon size medium 1`] = `
+<button
+  className="flex items-center rounded-full  bg-primary  text-white hover:bg-primary-shd8 focus:outline-none focus:border-2 focus:border-primary-shd9 focus:border-opacity-100 disabled:opacity-5
+          false,
+          px-l py-xs font-semibold  text-base,
+          false
+          "
+>
+  <svg
+    className="order-last"
+    fill="none"
+    height="16"
+    viewBox="0 0 24 24"
+    width="16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M16.293 9.293L12 13.586L7.70697 9.293L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.293Z"
+      fill="white"
+    />
+  </svg>
+</button>
+`;
+
+exports[`Testing ButtonIcon Testing ButtonIcon size medium iconPosition left 1`] = `
+<button
+  className="flex items-center rounded-full  bg-primary  text-white hover:bg-primary-shd8 focus:outline-none focus:border-2 focus:border-primary-shd9 focus:border-opacity-100 disabled:opacity-5
+          false,
+          px-l py-xs font-semibold  text-base,
+          false
+          "
+>
+  <svg
+    className="order-first"
+    fill="none"
+    height="16"
+    viewBox="0 0 24 24"
+    width="16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M16.293 9.293L12 13.586L7.70697 9.293L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.293Z"
+      fill="white"
+    />
+  </svg>
+</button>
+`;
+
+exports[`Testing ButtonIcon Testing ButtonIcon size medium iconPosition right 1`] = `
+<button
+  className="flex items-center rounded-full  bg-primary  text-white hover:bg-primary-shd8 focus:outline-none focus:border-2 focus:border-primary-shd9 focus:border-opacity-100 disabled:opacity-5
+          false,
+          px-l py-xs font-semibold  text-base,
+          false
+          "
+>
+  <svg
+    className="order-last"
+    fill="none"
+    height="16"
+    viewBox="0 0 24 24"
+    width="16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M16.293 9.293L12 13.586L7.70697 9.293L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.293Z"
+      fill="white"
+    />
+  </svg>
+</button>
+`;
+
+exports[`Testing ButtonIcon Testing ButtonIcon size small 1`] = `
+<button
+  className="flex items-center rounded-full  bg-primary  text-white hover:bg-primary-shd8 focus:outline-none focus:border-2 focus:border-primary-shd9 focus:border-opacity-100 disabled:opacity-5
+          false,
+          false,
+          px-m py-xxs font-semibold text-sm
+          "
+>
+  <svg
+    className="order-last"
+    fill="none"
+    height="16"
+    viewBox="0 0 24 24"
+    width="16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M16.293 9.293L12 13.586L7.70697 9.293L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.293Z"
+      fill="white"
+    />
+  </svg>
+</button>
+`;
+
+exports[`Testing ButtonIcon Testing ButtonIcon size small iconPosition left 1`] = `
+<button
+  className="flex items-center rounded-full  bg-primary  text-white hover:bg-primary-shd8 focus:outline-none focus:border-2 focus:border-primary-shd9 focus:border-opacity-100 disabled:opacity-5
+          false,
+          false,
+          px-m py-xxs font-semibold text-sm
+          "
+>
+  <svg
+    className="order-first"
+    fill="none"
+    height="16"
+    viewBox="0 0 24 24"
+    width="16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M16.293 9.293L12 13.586L7.70697 9.293L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.293Z"
+      fill="white"
+    />
+  </svg>
+</button>
+`;
+
+exports[`Testing ButtonIcon Testing ButtonIcon size small iconPosition right 1`] = `
+<button
+  className="flex items-center rounded-full  bg-primary  text-white hover:bg-primary-shd8 focus:outline-none focus:border-2 focus:border-primary-shd9 focus:border-opacity-100 disabled:opacity-5
+          false,
+          false,
+          px-m py-xxs font-semibold text-sm
+          "
+>
+  <svg
+    className="order-last"
+    fill="none"
+    height="16"
+    viewBox="0 0 24 24"
+    width="16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M16.293 9.293L12 13.586L7.70697 9.293L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.293Z"
+      fill="white"
+    />
+  </svg>
+</button>
+`;
+
+exports[`Testing ButtonIcon Testing ButtonIcon with no props 1`] = `
+<button
+  className="flex items-center rounded-full  bg-primary  text-white hover:bg-primary-shd8 focus:outline-none focus:border-2 focus:border-primary-shd9 focus:border-opacity-100 disabled:opacity-5
+          false,
+          false,
+          false
+          "
+>
+  <svg
+    className="order-last"
+    fill="none"
+    height="16"
+    viewBox="0 0 24 24"
+    width="16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M16.293 9.293L12 13.586L7.70697 9.293L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.293Z"
+      fill="white"
+    />
+  </svg>
+</button>
+`;
