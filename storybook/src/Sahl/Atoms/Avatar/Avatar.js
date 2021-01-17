@@ -22,6 +22,7 @@ export default function Avatar(props) {
     case "default":
       avatarPhoto = (
         <svg
+          data-testid="default-svg"
           className={`${imageSize} rounded-full bg-primary-200`}
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 512 512"
@@ -44,6 +45,7 @@ export default function Avatar(props) {
     case "anonymous":
       avatarPhoto = (
         <svg
+          data-testid="anonymous-svg"
           className={`${imageSize} rounded-full`}
           xmlns="http://www.w3.org/2000/svg"
           fill="#fff"
@@ -67,6 +69,7 @@ export default function Avatar(props) {
     case "personal":
       avatarPhoto = (
         <img
+          data-testid="personal-img"
           className={`${imageSize} rounded-full object-cover block`}
           src={src}
           alt="Profile Pic"
