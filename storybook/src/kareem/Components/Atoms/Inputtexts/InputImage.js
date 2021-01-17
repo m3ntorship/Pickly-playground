@@ -51,7 +51,7 @@ function InputImage({ fullRound, width = "400px", icon, placeholder }) {
     >
       {/* Icon Letter A */}
       <svg
-        className={`${iconA} ml-2`}
+        className={`${iconA} ml-2 w-6 h-6`}
         width="24"
         height="24"
         viewBox="0 0 24 24"

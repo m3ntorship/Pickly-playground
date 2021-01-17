@@ -1,6 +1,6 @@
 import React from "react";
 import CorrectIcon from "../icons/Correct";
-import WrongIcon from "../icons/Wrong";
+import ErrorIcon from "../icons/ErrorIcon";
 
 function Inputtext({ status = "normal", placeholder }) {
   let statusDesign = "";
@@ -8,13 +8,13 @@ function Inputtext({ status = "normal", placeholder }) {
 
   switch (status) {
     case "normal": {
-      statusDesign = "border-dark border border-opacity-25";
+      statusDesign = "border-grey-shd5 border border-opacity-25";
       icon = "";
       break;
     }
     case "error": {
       statusDesign = "border-error border";
-      icon = <WrongIcon />;
+      icon = <ErrorIcon />;
       break;
     }
     case "success": {
@@ -30,7 +30,7 @@ function Inputtext({ status = "normal", placeholder }) {
 
   return (
     <div
-      className={`${statusDesign} rounded-md  w-72 h-10  flex  items-center justify-center px-1 hover:border-grey-shd1 focus-within:border-opacity-100 bg-white label-container`}
+      className={`${statusDesign} rounded-md   w-72 h-10  flex  items-center justify-center px-1 hover:border-grey-shd1 focus-within:border-opacity-100 bg-white label-container`}
     >
       <input
         w-80

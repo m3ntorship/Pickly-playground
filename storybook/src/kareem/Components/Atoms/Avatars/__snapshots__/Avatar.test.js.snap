@@ -5,7 +5,9 @@ exports[`Render the avatar component Kareem: Render  no props  Avatar, should di
   <img
     alt="./avatar.png"
     className="w-14 h-14 rounded-xl"
+    data-testid="testidImg"
     src="./avatar.png"
+    title="dummyImg"
   />
 </div>
 `;
@@ -15,7 +17,9 @@ exports[`Render the avatar component Kareem: Render Image Status in Anonymus cas
   <img
     alt="./anonymus.png"
     className="w-14 h-14 rounded-xl"
+    data-testid="testidImg"
     src="./anonymus.png"
+    title="dummyImg"
   />
 </div>
 `;
@@ -25,7 +29,9 @@ exports[`Render the avatar component Kareem: Render Image Status in normal case 
   <img
     alt="./avatar.png"
     className="w-14 h-14 rounded-xl"
+    data-testid="testidImg"
     src="./avatar.png"
+    title="dummyImg"
   />
 </div>
 `;
@@ -35,7 +41,9 @@ exports[`Render the avatar component Kareem: Render Image Status in notfilled ca
   <img
     alt="./notfield.png"
     className="w-14 h-14 rounded-xl"
+    data-testid="testidImg"
     src="./notfield.png"
+    title="dummyImg"
   />
 </div>
 `;
@@ -45,7 +53,9 @@ exports[`Render the avatar component Kareem: Render Large Avatar  1`] = `
   <img
     alt="./avatar.png"
     className="w-14 h-14 rounded-xl"
+    data-testid="testidImg"
     src="./avatar.png"
+    title="dummyImg"
   />
 </div>
 `;
@@ -55,7 +65,9 @@ exports[`Render the avatar component Kareem: Render Medium Avatar  1`] = `
   <img
     alt="./avatar.png"
     className="w-10 h-10 rounded-xl"
+    data-testid="testidImg"
     src="./avatar.png"
+    title="dummyImg"
   />
 </div>
 `;
@@ -65,7 +77,9 @@ exports[`Render the avatar component Kareem: Render Small Avatar   1`] = `
   <img
     alt="./avatar.png"
     className="w-8 h-8 rounded-xl"
+    data-testid="testidImg"
     src="./avatar.png"
+    title="dummyImg"
   />
 </div>
 `;

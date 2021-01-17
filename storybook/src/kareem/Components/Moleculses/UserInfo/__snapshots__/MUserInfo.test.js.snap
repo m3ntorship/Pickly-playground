@@ -8,7 +8,9 @@ exports[`Render the UserInfo Moleculses  Kareem: Render UserInfo with anonymous 
     <img
       alt="./anonymus.png"
       className="w-14 h-14 rounded-xl"
+      data-testid="testidImg"
       src="./anonymus.png"
+      title="dummyImg"
     />
   </div>
   <div
@@ -37,7 +39,9 @@ exports[`Render the UserInfo Moleculses  Kareem: Render UserInfowith default cas
     <img
       alt="./avatar.png"
       className="w-10 h-10 rounded-xl"
+      data-testid="testidImg"
       src="./avatar.png"
+      title="dummyImg"
     />
   </div>
   <div

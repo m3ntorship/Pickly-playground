@@ -47,6 +47,8 @@ function Avatar({ status, size }) {
   return (
     <div>
       <img
+        title="dummyImg"
+        data-testid="testidImg"
         src={avatarImage}
         alt={avatarImage}
         className={`${sizeStyle} rounded-xl`}
