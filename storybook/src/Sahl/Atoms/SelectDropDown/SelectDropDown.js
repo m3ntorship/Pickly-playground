@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ArrowDown from "../../assets/icons/DownArrow";
+// import ArrowDown from "../../assets/icons/DownArrow";
 
 function SelectDropDown(props) {
   const { className, options, label } = props;
@@ -14,23 +14,16 @@ function SelectDropDown(props) {
       >
         {label}:
       </label>
-      <div className={`flex items-center`}>
-        <select
-          id={label}
-          className={`relative z-10 appearance-none border-none bg-transparent pr-4 m-0 w-full font-sans text-body-small capitalize cursor-pointer outline-none`}
-        >
-          {options.map((option, i) => (
-            <option value={option} key={option + i}>
-              {option}
-            </option>
-          ))}
-        </select>
-        <ArrowDown
-          width="w-4"
-          height="h-4"
-          className=" cursor-pointer -ml-3.5"
-        />
-      </div>
+      <select
+        id={label}
+        className={`appearance-none bg-white w-full m-0 font-sans text-grey text-sm capitalize cursor-pointer outline-none`}
+      >
+        {options.map((option, i) => (
+          <option value={option} key={option + i}>
+            {option}
+          </option>
+        ))}
+      </select>
     </div>
   );
 }

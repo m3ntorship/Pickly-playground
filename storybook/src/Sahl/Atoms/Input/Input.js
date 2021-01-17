@@ -82,7 +82,7 @@ export default function Input(props) {
             {label}
           </label>
           <div
-            className={`flex items-center h-8 rounded-md px-3 py-4 border ${borderColor} hover:border-grey-shd3 group focus:border-dark-grey ${
+            className={`bg-white flex items-center h-8 rounded-md px-3 py-4 border ${borderColor} hover:border-grey-shd3 group focus:border-dark-grey ${
               disabled && "opacity-40 cursor-not-allowed"
             }`}
           >
@@ -121,7 +121,7 @@ export default function Input(props) {
             {dropDownPrefix && (
               <SelectDropDown
                 options={dropDownOptions}
-                className="border-r border-grey-shd5 pr-2 br mr-4"
+                className="border-r border-grey-shd5 br mr-4"
               />
             )}
             <input
@@ -140,7 +140,7 @@ export default function Input(props) {
             <svg
               className={`w-4 h-4 ${
                 value.length > 0 ? "block" : "hidden"
-              } mr-4`}
+              } mr-4 cursor-pointer`}
               viewBox="0 0 24 24"
               fill="none"
               onClick={() => {
@@ -198,7 +198,7 @@ export default function Input(props) {
       break;
   }
 
-  return <>{markup}</>;
+  return <div className="bg-success h-28">{markup}</div>;
 }
 
 Input.propTypes = {

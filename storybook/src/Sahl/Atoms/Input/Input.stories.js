@@ -20,4 +20,5 @@ Default.args = {
   leftIcon: "",
   disabled: false,
   placeholder: "This is input...",
+  dropDownOptions: ["+20", "+984", "+44"],
 };
