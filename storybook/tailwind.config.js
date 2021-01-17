@@ -142,8 +142,6 @@ module.exports = {
 		height:{
 		  '61xl':'61.0625rem',
 		  '21xl':'21.25rem',
-  
-  
 		}
 	  }
 	},

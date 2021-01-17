@@ -31,7 +31,7 @@ exports[`Avatar Component should render anonymous pic when passing type=anonymou
       </clipPath>
     </defs>
     <circle
-      clip-path="url(#a)"
+      clipPath="url(#a)"
       cx="300"
       cy="300"
       fill="#a1a1F1"
@@ -43,7 +43,7 @@ exports[`Avatar Component should render anonymous pic when passing type=anonymou
       r="115"
     />
     <circle
-      clip-path="url(#b)"
+      clipPath="url(#b)"
       cx="300"
       cy="550"
       r="205"
