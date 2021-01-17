@@ -105,6 +105,6 @@ Radio.propTypes = {
   size: PropTypes.oneOf(["default", "large"]),
   label: PropTypes.string,
   disabled: PropTypes.bool,
-  className: PropTypes.string,
-  name: PropTypes.string.isRequired,
+  // className: PropTypes.string,
+  // name: PropTypes.string.isRequired,
 };
