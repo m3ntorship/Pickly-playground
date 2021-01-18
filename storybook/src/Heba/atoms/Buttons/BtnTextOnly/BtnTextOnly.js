@@ -17,7 +17,7 @@ export const Button = ({ children, size, iconDir }) => {
       <button
         type="button"
         className={cn(
-          iconDir
+          iconDir === BUTTON_OPTIONS.ICON.RIGHT
             ? "flex  items-center justify-center"
             : "flex  items-center justify-center flex-row-reverse",
           " text-primary hover:text-primary-shd2 focus:outline-none focus:underline mr-4",

@@ -17,7 +17,7 @@ export const Button = ({ primary, size }) => {
         className={cn(
           "flex  items-center justify-center",
           primary
-            ? "text-white bg-primary rounded-full focus:ring-2 focus:ring-primary-shd9 focus:outline-none disabled:opacity-25 mr -4"
+            ? "text-white bg-primary rounded-full focus:ring-2 focus:ring-primary-shd9 focus:outline-none  mr -4"
             : " text-primary bg-white  border border-primary rounded-full  focus:ring-2 focus:ring-primary-shd9 focus:outline-none mr-4 disabled:opacity-25 fill-current",
           { "py-3 px-3 ": size === BUTTON_OPTIONS.SIZE.BIG },
           {

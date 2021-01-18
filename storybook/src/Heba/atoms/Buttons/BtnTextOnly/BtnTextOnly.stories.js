@@ -15,12 +15,18 @@ export default {
         ],
       },
     },
+    iconDir: {
+      control: {
+        type: "radio",
+        options: [BUTTON_OPTIONS.ICON.LEFT, BUTTON_OPTIONS.ICON.RIGHT],
+      },
+    },
   },
 };
 const Template = (args) => <Button {...args} />;
 export const Primary = Template.bind({});
 Primary.args = {
   children: "Button Text",
-  iconDir: true,
+  iconDir: BUTTON_OPTIONS.ICON.LEFT,
   size: BUTTON_OPTIONS.SIZE.BIG,
 };

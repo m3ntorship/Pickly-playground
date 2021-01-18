@@ -24,5 +24,5 @@ Primary.args = {
   primary: true,
   size: BUTTON_OPTIONS.SIZE.BIG,
 };
-export const Secondary = Template.bind({});
-Secondary.args = { ...Primary.args, primary: false };
+// export const Secondary = Template.bind({});
+// Secondary.args = { ...Primary.args, primary: false };
