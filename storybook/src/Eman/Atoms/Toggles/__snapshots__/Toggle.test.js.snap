@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Toggle Testing Toggle size Default 1`] = `
+<div
+  className="relative bg-primary-shd7 hover:bg-primary-shd6 focus:border-primary-shd5 focus:outline-none focus:border rounded-full flex items-center flex-row-reverse w-10 h-6 undefined"
+>
+  <span
+    className="mr-1 inline-block rounded-lg bg-primary w-4 h-4 undefined"
+  />
+  <input
+    className="opacity-0 absolute cursor-pointer w-full h-full"
+    onClick={[Function]}
+    type="checkbox"
+  />
+</div>
+`;
+
+exports[`Testing Toggle Testing Toggle size Small 1`] = `
+<div
+  className="relative bg-primary-shd7 hover:bg-primary-shd6 focus:border-primary-shd5 focus:outline-none focus:border rounded-full flex items-center flex-row-reverse w-7 h-4 undefined"
+>
+  <span
+    className="mr-1 inline-block rounded-lg bg-primary w-2.5 h-2.5 undefined"
+  />
+  <input
+    className="opacity-0 absolute cursor-pointer w-full h-full"
+    onClick={[Function]}
+    type="checkbox"
+  />
+</div>
+`;
+
+exports[`Testing Toggle Testing Toggle with no props 1`] = `
+<div
+  className="relative bg-primary-shd7 hover:bg-primary-shd6 focus:border-primary-shd5 focus:outline-none focus:border rounded-full flex items-center flex-row-reverse w-7 h-4 undefined"
+>
+  <span
+    className="mr-1 inline-block rounded-lg bg-primary w-2.5 h-2.5 undefined"
+  />
+  <input
+    className="opacity-0 absolute cursor-pointer w-full h-full"
+    onClick={[Function]}
+    type="checkbox"
+  />
+</div>
+`;
