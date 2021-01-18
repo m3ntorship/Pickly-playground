@@ -27,6 +27,17 @@ export default {
         type: "text",
       },
     },
+    hasIcon: {
+      control: {
+        type: "boolean",
+      },
+    },
+    iconDirection: {
+      control: {
+        type: "inline-radio",
+        options: ["left", "right"],
+      },
+    },
   },
 };
 
@@ -37,4 +48,6 @@ _Button.args = {
   size: "lg",
   text: "Me Button?",
   type: "primary",
+  hasIcon: false,
+  iconDirection: "left",
 };
