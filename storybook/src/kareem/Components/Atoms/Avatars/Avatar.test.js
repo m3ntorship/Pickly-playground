@@ -47,9 +47,9 @@ describe("Avatar Component", () => {
     expect(element).toBeTruthy();
   });
 
-  it("Renders default Avatar as defualt wihtout props using getBytestID", () => {
-    render(<Avatar />);
-    const element = screen.getByTestId("testidImg");
-    expect(element).toBeInTheDocument("hier");
-  });
+  // it("Renders default Avatar as defualt wihtout props using getBytestID", () => {
+  //   render(<Avatar />);
+  //   const element = screen.getByTestId("testidImg");
+  //   expect(element).toBeInTheDocument("hier");
+  // });
 });
