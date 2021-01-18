@@ -44,7 +44,7 @@ export const Choices = ({ label, type, placeholder }) => {
           flex items-center  w-72 px-m py-xs relative  rounded-md  text-sm text-grey-shd1 hover:border-grey-shd2 focus:border-dark
           ${style}`}
       >
-        <div className="flex justify-center items-center bg-grey-shd7 rounded-sm px-2 py-1 mr-3 text-grey text-sm">
+        <div className="flex justify-center items-center bg-grey-shd7 rounded-sm px-2 py-1 mr-2 -ml-1 text-grey text-sm">
           A
         </div>
         <input
