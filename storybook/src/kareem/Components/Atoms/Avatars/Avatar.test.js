@@ -1,7 +1,8 @@
 import React from "react";
 import renderer from "react-test-renderer";
 import Avatar from "./Avatar";
-import { render, screen } from "@testing-library/react";
+import { render } from "@testing-library/react";
+//screen
 
 describe("Render the avatar component", () => {
   it("Kareem: Render Large Avatar ", () => {

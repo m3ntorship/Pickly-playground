@@ -69,7 +69,7 @@ exports[`Render the UploadImage component Kareem: Render UploadImage in loading 
     }
   >
     <svg
-      className=" ml-2"
+      className=" ml-2 w-6 h-6"
       fill="none"
       height="24"
       viewBox="0 0 24 24"
@@ -185,7 +185,7 @@ exports[`Render the UploadImage component Kareem: Render UploadImage in notload 
     }
   >
     <svg
-      className=" ml-2"
+      className=" ml-2 w-6 h-6"
       fill="none"
       height="24"
       viewBox="0 0 24 24"
@@ -301,7 +301,7 @@ exports[`Render the UploadImage component Kareem: Render UploadImage in status n
     }
   >
     <svg
-      className=" ml-2"
+      className=" ml-2 w-6 h-6"
       fill="none"
       height="24"
       viewBox="0 0 24 24"
