@@ -7,7 +7,7 @@ import "./Button.css";
 
 // export default Button;
 const Button = ({ size, type, disabled, text, hasIcon, iconDirection }) => {
-  let opacity, _size, _type, iconOrder, marginSetting;
+  let opacity, _size, _type, iconOrder, marginSetting, iconColor;
   iconOrder = `flex-row`;
   if (!text) {
     text = "Button";
@@ -44,6 +44,8 @@ const Button = ({ size, type, disabled, text, hasIcon, iconDirection }) => {
   if (hasIcon) {
     iconOrder = iconDirection == "left" ? "flex-row" : "flex-row-reverse";
     marginSetting = iconDirection == "left" ? "ml" : "mr";
+    iconColor =
+      type == "text" ? "#00A8E8" : type == "secondary" ? "#7048E8" : "white";
     return (
       <button
         className={` ${_type} ${_size}   rounded-full hover-state focus:outline-none focus-state flex ${iconOrder} items-center justify-center content-center ${opacity}`}
@@ -59,7 +61,7 @@ const Button = ({ size, type, disabled, text, hasIcon, iconDirection }) => {
           >
             <path
               d="M10.293 0.29303L5.99997 4.58603L1.70697 0.29303L0.292969 1.70703L5.99997 7.41403L11.707 1.70703L10.293 0.29303Z"
-              fill="white"
+              fill={`${iconColor}`}
             />
           </svg>
         </span>
