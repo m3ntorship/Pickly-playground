@@ -10,12 +10,11 @@ const PostView = ({
   //secondaryCaption on top the photo (overlayed)
   const data = {
     name: "Jerro Lightfeather",
-    time: "2 hours ago",
     votes: 14258,
   };
   if (single)
     return (
-      <div className="flex flex-col flex-nowrap	justify-center	items-center	border-2 border-white shadow-dark w-full m-auto px-m py-xs relative">
+      <div className="flex flex-col flex-nowrap	justify-center	items-center	border-2 border-white shadow-dark w-6/12 m-auto px-m py-xs relative">
         {/* Post Header */}
         <div className="flex flex-row border-b  border-primary-shd6 w-full px-xs mt-xs">
           <div className="mt-1">
@@ -24,7 +23,7 @@ const PostView = ({
           <div className=" flex flex-col justify-start align-top ml-4">
             <p className="mt-0 font-medium text-sm pt-xs">{data.name}</p>
             <p className="-mt-3 text-dark-grey font-light text-sm">
-              {data.time}
+              2 hours ago
             </p>
           </div>
 
