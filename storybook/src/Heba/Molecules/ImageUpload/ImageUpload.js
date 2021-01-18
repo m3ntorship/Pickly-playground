@@ -1,6 +1,12 @@
 import React from "react";
+export const IMAGEUPLOAD = {
+  MULTIPLE: {
+    ON: "yes",
+    OFF: "no",
+  },
+};
 
-export const ImageUpload = () => {
+export const ImageUpload = ({ multiple }) => {
   return (
     <div className=" flex items-center justify-center -mx-2 w-37xl  h-14   bg-grey-shd7 border-dashed border rounded-md rounded-br-md m-m border-accent box-border order-2 ">
       <svg
@@ -21,6 +27,7 @@ export const ImageUpload = () => {
       </svg>
       <div className="relative ">
         <input
+          multiple={multiple === IMAGEUPLOAD.MULTIPLE.ON ? "multiple" : ""}
           type="file"
           className="w-48  absolute h-5 left-5 top-0   order-2 opacity-0  "
         />
