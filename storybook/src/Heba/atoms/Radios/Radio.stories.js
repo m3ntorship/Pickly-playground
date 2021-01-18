@@ -13,7 +13,7 @@ export default {
     },
     size: {
       control: {
-        type: "select",
+        type: "radio",
         options: [RADIO.SIZE.DEFAULT, RADIO.SIZE.SMALL],
       },
     },

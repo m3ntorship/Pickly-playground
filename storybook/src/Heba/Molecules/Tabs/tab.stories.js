@@ -19,7 +19,7 @@ export default {
     },
     styles: {
       control: {
-        type: "select",
+        type: "radio",
         options: [
           TAB.STYLES.ACTIVE,
           TAB.STYLES.INACTIVE,

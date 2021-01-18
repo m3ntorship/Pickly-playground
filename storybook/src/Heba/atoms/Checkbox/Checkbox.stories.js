@@ -12,7 +12,7 @@ export default {
     },
     size: {
       control: {
-        type: "select",
+        type: "radio",
         options: [CHECKBOX.SIZE.DEFAULT, CHECKBOX.SIZE.SMALL],
       },
     },

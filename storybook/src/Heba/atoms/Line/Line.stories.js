@@ -7,7 +7,7 @@ export default {
   argTypes: {
     type: {
       control: {
-        type: "select",
+        type: "radio",
         options: [DIVIDER.TYPE.HORIZONTAL, DIVIDER.TYPE.VERTICAL],
       },
     },

@@ -7,7 +7,7 @@ export default {
   argTypes: {
     size: {
       control: {
-        type: "select",
+        type: "radio",
         options: [
           BUTTON_OPTIONS.SIZE.SMALL,
           BUTTON_OPTIONS.SIZE.MEDIUM,

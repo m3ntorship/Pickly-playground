@@ -7,13 +7,13 @@ export default {
   argTypes: {
     iconPosition: {
       control: {
-        type: "select",
+        type: "radio",
         options: [ICON_OPTIONS.POSTION.LEFT, ICON_OPTIONS.POSTION.RIGHT],
       },
     },
     size: {
       control: {
-        type: "select",
+        type: "radio",
         options: [
           BUTTON_OPTIONS.SIZE.SMALL,
           BUTTON_OPTIONS.SIZE.MEDIUM,

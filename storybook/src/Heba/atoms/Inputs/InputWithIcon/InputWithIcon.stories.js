@@ -7,7 +7,7 @@ export default {
   argTypes: {
     type: {
       control: {
-        type: "select",
+        type: "radio",
         options: [
           INPUT.STATUS.DEFAULT,
           INPUT.STATUS.ERROR,
@@ -18,7 +18,7 @@ export default {
     },
     icon: {
       control: {
-        type: "select",
+        type: "radio",
         options: [INPUT.ICON.LEFT, INPUT.ICON.RIGHT],
       },
     },
