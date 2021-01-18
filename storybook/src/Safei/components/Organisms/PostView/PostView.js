@@ -1,17 +1,23 @@
 import React from "react";
 import Avatar from "../../Atoms/Avatar/Avatar";
-const PostView = ({ single, isVoted = false }) => {
+const PostView = ({
+  single,
+  isVoted = false,
+  mainCaption = `Yes or No`,
+  secondaryCaption = `Whatever Caption`,
+}) => {
   //primaryCaption on top of the post
   //secondaryCaption on top the photo (overlayed)
   const data = {
     name: "Jerro Lightfeather",
     time: "2 hours ago",
-    votes: "1458",
+    votes: 14258,
   };
   if (single)
     return (
-      <div className="flex flex-col flex-nowrap	justify-center	items-center	border-2 border-white shadow-dark w-full m-auto px-m py-xs">
-        <div className="flex flex-row border  border-primary-shd6 w-full px-xs mt-xs">
+      <div className="flex flex-col flex-nowrap	justify-center	items-center	border-2 border-white shadow-dark w-full m-auto px-m py-xs relative">
+        {/* Post Header */}
+        <div className="flex flex-row border-b  border-primary-shd6 w-full px-xs mt-xs">
           <div className="mt-1">
             <Avatar type={"user"} size={"md"} />
           </div>
@@ -41,26 +47,78 @@ const PostView = ({ single, isVoted = false }) => {
             </svg>
           </button>
         </div>
-        <div className="w-full border border-error">
-          <div
-            id="content-container"
-            className="w-full border border-primary-shd6"
-          >
-            <div>top caption to be taken in props</div>
-            <div className="w-full border-success border rounded-lg">
-              <img src="ImagePoll.png" className="object-cover	 w-full" />
+        {/* Post Content */}
+        <div className="w-full ">
+          <div id="content-container" className="w-full ">
+            <div className=" p-m font-normal text-md leading-7">
+              {mainCaption}
+            </div>
+            <div className="w-full  rounded-lg relative">
+              <img src="ImagePoll.png" className="object-fill	 w-full" />
+              {/* overlay */}
+              <div
+                id="overlay"
+                className="px-xxl absolute bottom-8 left-4 flex  w-full h-8"
+              >
+                <div className="flex flex-row flex-nowrap justify-between w-full">
+                  <div className="py-1.5 px-s text-sm bg-white bg-opacity-60 mr-auto">
+                    {secondaryCaption}
+                  </div>
+                  <div className="ml-auto">
+                    <button className="mr-2">
+                      <svg
+                        width="40"
+                        height="40"
+                        viewBox="0 0 40 40"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0 20C0 8.95431 8.95431 0 20 0C31.0457 0 40 8.95431 40 20C40 31.0457 31.0457 40 20 40C8.95431 40 0 31.0457 0 20Z"
+                          fill="#FE544A"
+                        />
+                        <path
+                          d="M28 11H25H14.693C13.864 11 13.112 11.521 12.82 12.298L10.063 19.649C10.021 19.761 10 19.88 10 20V22C10 23.103 10.897 24 12 24H17.612L16.49 27.367C16.287 27.975 16.389 28.649 16.764 29.169C17.14 29.689 17.746 30 18.388 30H20C20.297 30 20.578 29.868 20.769 29.64L25.469 24H28C29.103 24 30 23.103 30 22V13C30 11.897 29.103 11 28 11ZM19.531 28H18.386L19.948 23.316C20.051 23.011 19.999 22.676 19.811 22.415C19.623 22.154 19.321 22 19 22H12V20.181L14.693 13H24V22.638L19.531 28ZM26 22V13H28L28.001 22H26Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </button>
+                    <button className="ml-2">
+                      <svg
+                        width="40"
+                        height="40"
+                        viewBox="0 0 40 40"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0 20C0 8.95431 8.95431 0 20 0C31.0457 0 40 8.95431 40 20C40 31.0457 31.0457 40 20 40C8.95431 40 0 31.0457 0 20Z"
+                          fill="#7048E8"
+                        />
+                        <path
+                          d="M28 16H22.388L23.511 12.633C23.713 12.025 23.611 11.351 23.236 10.831C22.861 10.311 22.253 10 21.612 10H20C19.703 10 19.422 10.132 19.231 10.36L14.531 16H12C10.897 16 10 16.897 10 18V27C10 28.103 10.897 29 12 29H15H25.307C26.136 29 26.888 28.479 27.18 27.702L29.937 20.351C29.979 20.239 30 20.12 30 20V18C30 16.897 29.103 16 28 16ZM12 18H14V27H12V18ZM28 19.819L25.307 27H16V17.362L20.468 12H21.614L20.052 16.683C19.949 16.988 20.001 17.323 20.189 17.584C20.377 17.846 20.679 18 21 18H28V19.819Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div id="content-container"></div>
-          <div id="overlay">overlay with like and small caption</div>
         </div>
         {/* Footer */}
         <div className="flex flex-row flex-nowrap w-full mt-m">
           <div className="font-normal text-sm text-grey">
-            {isVoted && `${data.votes} votes taken`}
+            {isVoted && `${data.votes.toLocaleString()} votes taken`}
             {!isVoted && `Vote to uncover the total number of voters`}
           </div>
-          <div className="ml-auto mt-0">
+          <button
+            className="ml-auto mt-0 focus:outline-none"
+            onClick={() => {
+              alert("Shared");
+            }}
+          >
             <svg
               className="h-5 w-5"
               viewBox="0 0 19 20"
@@ -72,7 +130,7 @@ const PostView = ({ single, isVoted = false }) => {
                 fill="#8D9A9E"
               />
             </svg>
-          </div>
+          </button>
         </div>
       </div>
     );

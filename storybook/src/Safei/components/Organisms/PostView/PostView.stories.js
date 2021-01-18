@@ -15,6 +15,16 @@ export default {
         type: "boolean",
       },
     },
+    mainCaption: {
+      control: {
+        type: "text",
+      },
+    },
+    secondaryCaption: {
+      control: {
+        type: "text",
+      },
+    },
   },
   //decorators: [story => <Center>{story()}</Center>]
 };
@@ -24,4 +34,6 @@ export const _PostView = Template.bind({});
 _PostView.args = {
   single: true,
   isVoted: false,
+  mainCaption: "Yes or No?",
+  secondaryCaption: "Whatever Caption",
 };
