@@ -3,7 +3,12 @@ import PropTypes from "prop-types";
 import { useState } from "react";
 
 const TextInput = (props) => {
-  const { textInputPlaceHolder, textInputDisabled, textInputstatus } = props;
+  const {
+    textInputPlaceHolder,
+    textInputDisabled,
+    textInputstatus,
+    borderRadius,
+  } = props;
   const [textInputValue, setTextInputValue] = useState("");
   const onChangeTextInputValue = (e) => {
     setTextInputValue(e.target.value);
@@ -75,9 +80,9 @@ const TextInput = (props) => {
         value={textInputValue}
         placeholder={textInputPlaceHolder}
         onChange={onChangeTextInputValue}
-        className={`bg-white w-full px-m py-2.5 rounded-md text-dark-grey placeholder-grey-shd1 text-normal focus:outline-none text-sm border ${
-          textInputDisabled && " border-grey-shd7  "
-        }${
+        className={`bg-white w-full px-m py-2.5 text-dark-grey placeholder-grey-shd1 text-normal focus:outline-none text-sm border ${
+          !borderRadius ? " rounded-md " : `${borderRadius}`
+        } ${textInputDisabled && " border-grey-shd7  "}${
           !textInputDisabled &&
           textInputstatus === "Default" &&
           " border-grey-shd5 hover:border-grey-shd2 focus:border-dark focus:text-dark"
@@ -101,5 +106,6 @@ TextInput.propTypes = {
   textInputstatus: PropTypes.oneOf(["Default", "Error", "Success"]),
   textInputDisabled: PropTypes.bool,
   textInputPlaceHolder: PropTypes.string,
+  borderRadius: PropTypes.string,
 };
 export default TextInput;
