@@ -22,7 +22,9 @@ export const Post = () => {
       </div>
       <div className=" w-18.5 h-21xl flex mt-3 gap-1 -mx-3">
         <div className=" w-18.5 h-21xl ">
-          <Man type="Man4" />
+          <div>
+            <Man type="Man4" />
+          </div>
           <InputWithOption type="A" />
         </div>
         <div className=" w-18.5 h-21xl ">
