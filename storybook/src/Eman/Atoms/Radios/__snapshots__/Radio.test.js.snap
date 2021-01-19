@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Radio Testing Radio size Default 1`] = `
+<div
+  className="relative border border-grey-shd4 rounded-lg flex justify-center items-center hover:border-grey-shd1 focus:ring-2 focus:border-offset-grey-shd2 focus:outline-none w-6 h-6 undefined"
+  onClick={[Function]}
+>
+  <input
+    className="opacity-0 absolute cursor-pointer w-full h-full"
+    name="tab"
+    onChange={[Function]}
+    type="radio"
+    value=""
+  />
+</div>
+`;
+
+exports[`Testing Radio Testing Radio size Small 1`] = `
+<div
+  className="relative border border-grey-shd4 rounded-lg flex justify-center items-center hover:border-grey-shd1 focus:ring-2 focus:border-offset-grey-shd2 focus:outline-none w-4 h-4 undefined"
+  onClick={[Function]}
+>
+  <input
+    className="opacity-0 absolute cursor-pointer w-full h-full"
+    name="tab"
+    onChange={[Function]}
+    type="radio"
+    value=""
+  />
+</div>
+`;
+
+exports[`Testing Radio Testing Radio with no props 1`] = `
+<div
+  className="relative border border-grey-shd4 rounded-lg flex justify-center items-center hover:border-grey-shd1 focus:ring-2 focus:border-offset-grey-shd2 focus:outline-none w-4 h-4 undefined"
+  onClick={[Function]}
+>
+  <input
+    className="opacity-0 absolute cursor-pointer w-full h-full"
+    name="tab"
+    onChange={[Function]}
+    type="radio"
+    value=""
+  />
+</div>
+`;

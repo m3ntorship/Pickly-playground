@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CircleProgress Component should change background color when background is passed as color string 1`] = `
+<div
+  className="relative inline-block"
+>
+  <svg
+    className="inline-block "
+    height={72}
+    width={72}
+  >
+    <circle
+      cx={36}
+      cy={36}
+      fill="none"
+      r={32.5}
+      stroke="none"
+      strokeWidth={4}
+    />
+    <circle
+      cx={36}
+      cy={36}
+      fill="none"
+      r={32.5}
+      stroke="#7048E8"
+      strokeDasharray={204.20352248333654}
+      strokeDashoffset={0}
+      strokeWidth={7}
+    />
+  </svg>
+  <span
+    className="inline-block w-min absolute left-1/2 top-2/3 transform -translate-x-2/4 -translate-y-2/3 text-dark text-sm"
+  >
+    50
+    %
+  </span>
+</div>
+`;
+
+exports[`CircleProgress Component should change circle color when circle color is passed as color string 1`] = `
+<div
+  className="relative inline-block"
+>
+  <svg
+    className="inline-block "
+    height={72}
+    width={72}
+  >
+    <circle
+      cx={36}
+      cy={36}
+      fill="none"
+      r={32.5}
+      stroke="none"
+      strokeWidth={4}
+    />
+    <circle
+      cx={36}
+      cy={36}
+      fill="none"
+      r={32.5}
+      stroke="#812"
+      strokeDasharray={204.20352248333654}
+      strokeDashoffset={102.10176124166827}
+      strokeWidth={7}
+    />
+  </svg>
+  <span
+    className="inline-block w-min absolute left-1/2 top-2/3 transform -translate-x-2/4 -translate-y-2/3 text-dark text-sm"
+  >
+    50
+    %
+  </span>
+</div>
+`;
+
+exports[`CircleProgress Component should change circle radius when passing size 1`] = `
+<div
+  className="relative inline-block"
+>
+  <svg
+    className="inline-block "
+    height={32}
+    width={32}
+  >
+    <circle
+      cx={16}
+      cy={16}
+      fill="none"
+      r={12.5}
+      stroke="none"
+      strokeWidth={4}
+    />
+    <circle
+      cx={16}
+      cy={16}
+      fill="none"
+      r={12.5}
+      stroke="#7048E8"
+      strokeDasharray={78.53981633974483}
+      strokeDashoffset={0}
+      strokeWidth={7}
+    />
+  </svg>
+  <span
+    className="inline-block w-min absolute left-1/2 top-2/3 transform -translate-x-2/4 -translate-y-2/3 text-dark text-sm"
+  >
+    50
+    %
+  </span>
+</div>
+`;
+
+exports[`CircleProgress Component should give error when no props are passed 1`] = `
+<div
+  className="relative inline-block"
+>
+  <svg
+    className="inline-block "
+    height={72}
+    width={72}
+  >
+    <circle
+      cx={36}
+      cy={36}
+      fill="none"
+      r={32.5}
+      stroke="none"
+      strokeWidth={4}
+    />
+    <circle
+      cx={36}
+      cy={36}
+      fill="none"
+      r={32.5}
+      stroke="#7048E8"
+      strokeDasharray={204.20352248333654}
+      strokeDashoffset={0}
+      strokeWidth={7}
+    />
+  </svg>
+  <span
+    className="inline-block w-min absolute left-1/2 top-2/3 transform -translate-x-2/4 -translate-y-2/3 text-dark text-sm"
+  >
+    %
+  </span>
+</div>
+`;
+
+exports[`CircleProgress Component should render correctly when only progress prop is passed 1`] = `
+<div
+  className="relative inline-block"
+>
+  <svg
+    className="inline-block "
+    height={72}
+    width={72}
+  >
+    <circle
+      cx={36}
+      cy={36}
+      fill="none"
+      r={32.5}
+      stroke="none"
+      strokeWidth={4}
+    />
+    <circle
+      cx={36}
+      cy={36}
+      fill="none"
+      r={32.5}
+      stroke="#7048E8"
+      strokeDasharray={204.20352248333654}
+      strokeDashoffset={102.10176124166827}
+      strokeWidth={7}
+    />
+  </svg>
+  <span
+    className="inline-block w-min absolute left-1/2 top-2/3 transform -translate-x-2/4 -translate-y-2/3 text-dark text-sm"
+  >
+    50
+    %
+  </span>
+</div>
+`;

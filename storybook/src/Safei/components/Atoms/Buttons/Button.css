@@ -1,0 +1,16 @@
+/* //using css for colors not available in config and used very few times. */
+.primary:hover{
+    background-color: #5F3DC4;
+}
+.primary:focus,.secondary:hover{
+    border: 2px solid #5034A6;
+}
+.secondary:hover{
+    background-color: #FAFAFC;
+}
+.text:hover{
+    color:#0092C9;
+}
+.text:focus span{
+    text-decoration: underline;
+}

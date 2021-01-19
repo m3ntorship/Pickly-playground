@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render the avatar component Kareem: Render  no props  Avatar, should display a Large  avatar with default photo  1`] = `
+<div>
+  <img
+    alt="./avatar.png"
+    className="w-14 h-14 rounded-xl"
+    data-testid="testidImg"
+    src="./avatar.png"
+    title="dummyImg"
+  />
+</div>
+`;
+
+exports[`Render the avatar component Kareem: Render Image Status in Anonymus case   1`] = `
+<div>
+  <img
+    alt="./anonymus.png"
+    className="w-14 h-14 rounded-xl"
+    data-testid="testidImg"
+    src="./anonymus.png"
+    title="dummyImg"
+  />
+</div>
+`;
+
+exports[`Render the avatar component Kareem: Render Image Status in normal case   1`] = `
+<div>
+  <img
+    alt="./avatar.png"
+    className="w-14 h-14 rounded-xl"
+    data-testid="testidImg"
+    src="./avatar.png"
+    title="dummyImg"
+  />
+</div>
+`;
+
+exports[`Render the avatar component Kareem: Render Image Status in notfilled case   1`] = `
+<div>
+  <img
+    alt="./notfield.png"
+    className="w-14 h-14 rounded-xl"
+    data-testid="testidImg"
+    src="./notfield.png"
+    title="dummyImg"
+  />
+</div>
+`;
+
+exports[`Render the avatar component Kareem: Render Large Avatar  1`] = `
+<div>
+  <img
+    alt="./avatar.png"
+    className="w-14 h-14 rounded-xl"
+    data-testid="testidImg"
+    src="./avatar.png"
+    title="dummyImg"
+  />
+</div>
+`;
+
+exports[`Render the avatar component Kareem: Render Medium Avatar  1`] = `
+<div>
+  <img
+    alt="./avatar.png"
+    className="w-10 h-10 rounded-xl"
+    data-testid="testidImg"
+    src="./avatar.png"
+    title="dummyImg"
+  />
+</div>
+`;
+
+exports[`Render the avatar component Kareem: Render Small Avatar   1`] = `
+<div>
+  <img
+    alt="./avatar.png"
+    className="w-8 h-8 rounded-xl"
+    data-testid="testidImg"
+    src="./avatar.png"
+    title="dummyImg"
+  />
+</div>
+`;
