@@ -19,16 +19,20 @@ export const Button = ({ children, size, iconDir }) => {
         className={cn(
           iconDir === BUTTON_OPTIONS.ICON.RIGHT
             ? "flex  items-center justify-center"
-            : "flex  items-center justify-center flex-row-reverse",
+            : "flex  items-center justify-center flex-row-reverse font-bold",
           " text-primary hover:text-primary-shd2 focus:outline-none focus:underline mr-4",
-          { "py-4 px-8 font-bold text-md": size === BUTTON_OPTIONS.SIZE.BIG },
+          {
+            "py-4 px-8  font-sans font-normal-700 text-md":
+              size === BUTTON_OPTIONS.SIZE.BIG,
+          },
           {
             "py-2 px-6 text-base font-medium":
               size === BUTTON_OPTIONS.SIZE.MEDIUM,
           },
 
           {
-            "py-1 px-4 font-medium text-sm": size === BUTTON_OPTIONS.SIZE.SMALL,
+            "py-1 px-4 font-sans f  text-sm":
+              size === BUTTON_OPTIONS.SIZE.SMALL,
           }
         )}
       >
