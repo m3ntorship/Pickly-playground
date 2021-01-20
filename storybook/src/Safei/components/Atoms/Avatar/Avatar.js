@@ -13,7 +13,11 @@ const Avatar = ({ size, type, source }) => {
     size == "lg" ? "h-14 w-14" : size == "md" ? "h-10 w-10" : "h-8 w-8 ";
   return (
     <div className="inline-block">
-      <img src={source} className={`rounded-full ${classes} mt-1`} />
+      <img
+        src={source}
+        className={`rounded-full ${classes} mt-1`}
+        alt={`${type} avatar img`}
+      />
     </div>
   );
 };

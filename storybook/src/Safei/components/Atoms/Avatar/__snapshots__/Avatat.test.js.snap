@@ -5,6 +5,7 @@ exports[`renders the avatar comp renders  large Avatar  1`] = `
   className="inline-block"
 >
   <img
+    alt="undefined avatar img"
     className="rounded-full h-14 w-14 mt-1"
     src="/default.svg"
   />
@@ -16,6 +17,7 @@ exports[`renders the avatar comp renders  md Avatar  1`] = `
   className="inline-block"
 >
   <img
+    alt="undefined avatar img"
     className="rounded-full h-10 w-10 mt-1"
     src="/default.svg"
   />
@@ -27,6 +29,7 @@ exports[`renders the avatar comp renders  no props  Avatar, should display a sma
   className="inline-block"
 >
   <img
+    alt="undefined avatar img"
     className="rounded-full h-8 w-8  mt-1"
     src="/default.svg"
   />
@@ -38,6 +41,7 @@ exports[`renders the avatar comp renders  small  Avatar with default photo on fi
   className="inline-block"
 >
   <img
+    alt="undefined avatar img"
     className="rounded-full h-8 w-8  mt-1"
     src="/default.svg"
   />

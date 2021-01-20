@@ -28,12 +28,15 @@ const Button = ({ size, type, disabled, text, hasIcon, iconDirection }) => {
   }
   //dsiabled?
   if (disabled) {
-    opacity = "opacity-25";
+    opacity = "opacity-25 cursor-not-allowed";
   }
 
   if (!hasIcon) {
     return (
       <button
+        onClick={() => {
+          alert("clicked me?");
+        }}
         className={` ${_type} ${_size}   rounded-full hover-state focus:outline-none focus-state flex items-center justify-center content-center ${opacity}`}
         disabled={disabled}
       >
