@@ -95,9 +95,11 @@ const TextInput = (props) => {
           " border-success "
         }`}
       />
-      {svgDefault}
-      {svgError}
-      {svgSuccess}
+      {textInputstatus === "Success" && !textInputDisabled
+        ? svgSuccess
+        : textInputstatus === "Error" && !textInputDisabled
+        ? svgError
+        : !textInputDisabled && svgDefault}
     </label>
   );
 };

@@ -13,7 +13,7 @@ const TogglerButton = (props) => {
       disabled={togglerDisabled}
       className={`
       ${togglerDisabled && " cursor-not-allowed "}${
-        togglerSize === "Default" ? " p-1 w-11 " : " p-0.5 w-7 "
+        togglerSize === "Default" ? " p-1 w-11 " : " p-0.5 w-7 h-4 "
       } disabled:opacity-25 rounded-full transition-colors duration-100 focus:ring-2 focus:outline-none ${
         !toggler
           ? ` bg-grey-shd4 focus:ring-grey-shd3 ${
