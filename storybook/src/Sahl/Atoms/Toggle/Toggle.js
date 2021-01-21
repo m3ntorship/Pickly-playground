@@ -115,5 +115,5 @@ export default function Toggle(props) {
 Toggle.propTypes = {
   disabled: PropTypes.bool,
   size: PropTypes.oneOf(["sm", "lg"]),
-  onChange: PropTypes.func,
+  // onChange: PropTypes.func,
 };
