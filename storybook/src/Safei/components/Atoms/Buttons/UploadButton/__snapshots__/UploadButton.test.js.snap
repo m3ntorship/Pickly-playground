@@ -31,6 +31,7 @@ exports[`UploadButton  field renders  UploadButton  1`] = `
   </span>
   <input
     className="opacity-0 min-w-full h-full cursor-pointer"
+    data-testId="upload-btn"
     id="myFile"
     multiple={true}
     name="filename"

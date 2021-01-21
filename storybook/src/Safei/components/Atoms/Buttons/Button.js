@@ -6,7 +6,15 @@ import "./Button.css";
 //   //iconLocation = ['left', 'right', 'center']
 
 // export default Button;
-const Button = ({ size, type, disabled, text, hasIcon, iconDirection }) => {
+const Button = ({
+  size,
+  type,
+  disabled,
+  text,
+  hasIcon,
+  iconDirection,
+  onClick,
+}) => {
   let opacity, _size, _type, iconOrder, marginSetting, iconColor;
   iconOrder = `flex-row`;
   if (!text) {
@@ -34,11 +42,10 @@ const Button = ({ size, type, disabled, text, hasIcon, iconDirection }) => {
   if (!hasIcon) {
     return (
       <button
-        onClick={() => {
-          alert("clicked me?");
-        }}
+        data-testid="btn-case"
         className={` ${_type} ${_size}   rounded-full hover-state focus:outline-none focus-state flex items-center justify-center content-center ${opacity}`}
         disabled={disabled}
+        onClick={onClick}
       >
         <span className="inline-block font-medium	">{text}</span>
       </button>
