@@ -19,8 +19,7 @@ export default function Radio(props) {
   // label Classes
   let labelClasses = [
     "flex",
-    "items-center",
-    "justify-end",
+    // "justify-center",
     "relative",
     "cursor-pointer",
     "rounded-full",
@@ -33,7 +32,7 @@ export default function Radio(props) {
   let customRadioClasses = [
     "absolute",
     "inset-0",
-    "m-auto",
+    "my-auto",
     "border",
     "border-solid",
     "rounded-full",
@@ -71,10 +70,10 @@ export default function Radio(props) {
   // Change size
   if (size === "default") {
     customRadioClasses = [...customRadioClasses, "h-4", "w-4"];
-    if (label) dotClasses.push("ml-12");
+    if (label) labelClasses.push("ml-2");
   } else {
     customRadioClasses = [...customRadioClasses, "h-6", "w-6"];
-    if (label) dotClasses.push("ml-14");
+    // if (label) dotClasses.push("ml-14");
   }
 
   // Change opacity if disabled
@@ -87,7 +86,9 @@ export default function Radio(props) {
         type="radio"
         onChange={onChange}
         checked={checked}
-        className="opacity-0 relative z-10"
+        className={`opacity-0 relative z-10 ${
+          !label ? "" : size === "default" ? "w-5" : "w-8"
+        }`}
         name={name}
         value={value}
       />
