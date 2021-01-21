@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Button Testing Button size big 1`] = `
+<button
+  className="
+  rounded-full  text-primary  border-2 border-primary,
+        px-xl py-s font-bold text-md,
+        false,
+        false,
+        false
+        "
+/>
+`;
+
+exports[`Testing Button Testing Button size medium 1`] = `
+<button
+  className="
+  rounded-full  text-primary  border-2 border-primary,
+        false,
+        px-l py-xs font-semibold  text-base,
+        false,
+        false
+        "
+/>
+`;
+
+exports[`Testing Button Testing Button size small 1`] = `
+<button
+  className="
+  rounded-full  text-primary  border-2 border-primary,
+        false,
+        false,
+        px-m py-xxs font-semibold text-sm,
+        false
+        "
+/>
+`;
+
+exports[`Testing Button Testing Button type primary 1`] = `
+<button
+  className="
+  rounded-full  bg-primary  text-white hover:bg-primary-shd8 focus:outline-none focus:border-2 focus:border-primary-shd9 focus:border-opacity-100 disabled:opacity-5,
+        false,
+        false,
+        false,
+        false
+        "
+/>
+`;
+
+exports[`Testing Button Testing Button type primary size big 1`] = `
+<button
+  className="
+  rounded-full  bg-primary  text-white hover:bg-primary-shd8 focus:outline-none focus:border-2 focus:border-primary-shd9 focus:border-opacity-100 disabled:opacity-5,
+        px-xl py-s font-bold text-md,
+        false,
+        false,
+        false
+        "
+/>
+`;
+
+exports[`Testing Button Testing Button type primary size medium 1`] = `
+<button
+  className="
+  rounded-full  bg-primary  text-white hover:bg-primary-shd8 focus:outline-none focus:border-2 focus:border-primary-shd9 focus:border-opacity-100 disabled:opacity-5,
+        false,
+        px-l py-xs font-semibold  text-base,
+        false,
+        false
+        "
+/>
+`;
+
+exports[`Testing Button Testing Button type primary size small 1`] = `
+<button
+  className="
+  rounded-full  bg-primary  text-white hover:bg-primary-shd8 focus:outline-none focus:border-2 focus:border-primary-shd9 focus:border-opacity-100 disabled:opacity-5,
+        false,
+        false,
+        px-m py-xxs font-semibold text-sm,
+        false
+        "
+/>
+`;
+
+exports[`Testing Button Testing Button type secondary 1`] = `
+<button
+  className="
+  rounded-full  text-primary  border-2 border-primary,
+        false,
+        false,
+        false,
+        false
+        "
+/>
+`;
+
+exports[`Testing Button Testing Button type secondary size big 1`] = `
+<button
+  className="
+  rounded-full  text-primary  border-2 border-primary,
+        px-xl py-s font-bold text-md,
+        false,
+        false,
+        false
+        "
+/>
+`;
+
+exports[`Testing Button Testing Button type secondary size medium 1`] = `
+<button
+  className="
+  rounded-full  text-primary  border-2 border-primary,
+        false,
+        px-l py-xs font-semibold  text-base,
+        false,
+        false
+        "
+/>
+`;
+
+exports[`Testing Button Testing Button type secondary size small 1`] = `
+<button
+  className="
+  rounded-full  text-primary  border-2 border-primary,
+        false,
+        false,
+        px-m py-xxs font-semibold text-sm,
+        false
+        "
+/>
+`;
+
+exports[`Testing Button Testing Button with no props 1`] = `
+<button
+  className="
+  rounded-full  text-primary  border-2 border-primary,
+        false,
+        false,
+        false,
+        false
+        "
+/>
+`;
