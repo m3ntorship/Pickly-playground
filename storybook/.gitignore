@@ -7,6 +7,8 @@
 /.eslintcache
 .eslintcache
 /storybook/.eslintcache
+.eslintcache
+./eslintcache
 # testing
 /coverage
 
