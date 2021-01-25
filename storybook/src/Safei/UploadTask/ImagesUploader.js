@@ -4,13 +4,14 @@ import ImageUploader from "./ImageUploader";
 const ImagesUploader = () => {
   const [files, setFiles] = useState([]);
   const onChange = (e) => {
-    setFiles(e.target.value);
+    //1
+    setFiles([...e.target.files]);
   };
   return (
     <div>
       <input type="file" multiple onChange={onChange} />
       {files.map((file) => (
-        <ImageUploader file={File} key={file.key} />
+        <ImageUploader file={file} key={Math.random()} />
       ))}
     </div>
   );
