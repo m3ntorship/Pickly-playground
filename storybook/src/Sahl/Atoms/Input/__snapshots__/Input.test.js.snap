@@ -1,0 +1,406 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input Component should render a default input wihtout any props  1`] = `
+<div
+  className="w-full"
+>
+  <label
+    className="block mb-2 text-2xs md:text-xs "
+  >
+    
+  </label>
+  <div
+    className="flex items-center h-8 rounded-md px-3 py-4 border border-grey-shd5 hover:border-grey-shd3 group focus:border-dark-grey false"
+  >
+    <input
+      className="outline-none block border-0 w-full mr-auto text-2xs md:text-xs false"
+      disabled={false}
+      onChange={[Function]}
+      placeholder=""
+      type="text"
+      value=""
+    />
+    <svg
+      className="w-4 h-4 hidden mr-4"
+      fill="none"
+      onClick={[Function]}
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 2C6.486 2 2 6.486 2 12C2 17.514 6.486 22 12 22C17.514 22 22 17.514 22 12C22 6.486 17.514 2 12 2ZM16.207 14.793L14.793 16.207L12 13.414L9.207 16.207L7.793 14.793L10.586 12L7.793 9.207L9.207 7.793L12 10.586L14.793 7.793L16.207 9.207L13.414 12L16.207 14.793Z"
+        fill="#5B6366"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Input Component should render disabled when disabled is passed  1`] = `
+<div
+  className="w-full"
+>
+  <label
+    className="block mb-2 text-2xs md:text-xs "
+  >
+    
+  </label>
+  <div
+    className="flex items-center h-8 rounded-md px-3 py-4 border border-grey-shd5 hover:border-grey-shd3 group focus:border-dark-grey opacity-40 cursor-not-allowed"
+  >
+    <input
+      className="outline-none block border-0 w-full mr-auto text-2xs md:text-xs cursor-not-allowed"
+      disabled={true}
+      onChange={[Function]}
+      placeholder=""
+      type="text"
+      value=""
+    />
+    <svg
+      className="w-4 h-4 hidden mr-4"
+      fill="none"
+      onClick={[Function]}
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 2C6.486 2 2 6.486 2 12C2 17.514 6.486 22 12 22C17.514 22 22 17.514 22 12C22 6.486 17.514 2 12 2ZM16.207 14.793L14.793 16.207L12 13.414L9.207 16.207L7.793 14.793L10.586 12L7.793 9.207L9.207 7.793L12 10.586L14.793 7.793L16.207 9.207L13.414 12L16.207 14.793Z"
+        fill="#5B6366"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Input Component should render with check icon to right when passing sccess 1`] = `
+<div
+  className="w-full"
+>
+  <label
+    className="block mb-2 text-2xs md:text-xs "
+  >
+    
+  </label>
+  <div
+    className="flex items-center h-8 rounded-md px-3 py-4 border border-success hover:border-grey-shd3 group focus:border-dark-grey false"
+  >
+    <input
+      className="outline-none block border-0 w-full mr-auto text-2xs md:text-xs false"
+      disabled={false}
+      onChange={[Function]}
+      placeholder=""
+      type="text"
+      value=""
+    />
+    <svg
+      className="w-4 h-4 hidden mr-4"
+      fill="none"
+      onClick={[Function]}
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 2C6.486 2 2 6.486 2 12C2 17.514 6.486 22 12 22C17.514 22 22 17.514 22 12C22 6.486 17.514 2 12 2ZM16.207 14.793L14.793 16.207L12 13.414L9.207 16.207L7.793 14.793L10.586 12L7.793 9.207L9.207 7.793L12 10.586L14.793 7.793L16.207 9.207L13.414 12L16.207 14.793Z"
+        fill="#5B6366"
+      />
+    </svg>
+    <svg
+      className="w-4 h-4 text-success"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Input Component should render with close icon to right when typing only  1`] = `
+<div
+  className="w-full"
+>
+  <label
+    className="block mb-2 text-2xs md:text-xs "
+  >
+    
+  </label>
+  <div
+    className="flex items-center h-8 rounded-md px-3 py-4 border border-grey-shd5 hover:border-grey-shd3 group focus:border-dark-grey false"
+  >
+    <input
+      className="outline-none block border-0 w-full mr-auto text-2xs md:text-xs false"
+      disabled={false}
+      onChange={[Function]}
+      placeholder=""
+      type="text"
+      value=""
+    />
+    <svg
+      className="w-4 h-4 hidden mr-4"
+      fill="none"
+      onClick={[Function]}
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 2C6.486 2 2 6.486 2 12C2 17.514 6.486 22 12 22C17.514 22 22 17.514 22 12C22 6.486 17.514 2 12 2ZM16.207 14.793L14.793 16.207L12 13.414L9.207 16.207L7.793 14.793L10.586 12L7.793 9.207L9.207 7.793L12 10.586L14.793 7.793L16.207 9.207L13.414 12L16.207 14.793Z"
+        fill="#5B6366"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Input Component should render with empty select dropdown at left when passing dropDownPrefix 1`] = `
+<div
+  className="w-full"
+>
+  <label
+    className="block mb-2 text-2xs md:text-xs "
+  >
+    
+  </label>
+  <div
+    className="flex items-center h-8 rounded-md px-3 py-4 border border-grey-shd5 hover:border-grey-shd3 group focus:border-dark-grey false"
+  >
+    <div
+      className="border-r border-grey-shd5 pr-2 br mr-4 flex items-center"
+    >
+      <label
+        className="text-body-small text-dark-grey capitalize hidden"
+      >
+        :
+      </label>
+      <div
+        className="flex items-center"
+      >
+        <select
+          className="relative z-10 appearance-none border-none bg-transparent pr-4 m-0 w-full font-sans text-body-small capitalize cursor-pointer outline-none"
+        />
+        <svg
+          className="w-4 h-4  cursor-pointer -ml-3.5"
+          fill="none"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M16.293 9.29297L12 13.586L7.70697 9.29297L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.29297Z"
+            fill="#5B6366"
+          />
+        </svg>
+      </div>
+    </div>
+    <input
+      className="outline-none block border-0 w-full mr-auto text-2xs md:text-xs false"
+      disabled={false}
+      onChange={[Function]}
+      placeholder=""
+      type="text"
+      value=""
+    />
+    <svg
+      className="w-4 h-4 hidden mr-4"
+      fill="none"
+      onClick={[Function]}
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 2C6.486 2 2 6.486 2 12C2 17.514 6.486 22 12 22C17.514 22 22 17.514 22 12C22 6.486 17.514 2 12 2ZM16.207 14.793L14.793 16.207L12 13.414L9.207 16.207L7.793 14.793L10.586 12L7.793 9.207L9.207 7.793L12 10.586L14.793 7.793L16.207 9.207L13.414 12L16.207 14.793Z"
+        fill="#5B6366"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Input Component should render with left home icon when passing leftIcon=home 1`] = `
+<div
+  className="w-full"
+>
+  <label
+    className="block mb-2 text-2xs md:text-xs "
+  >
+    
+  </label>
+  <div
+    className="flex items-center h-8 rounded-md px-3 py-4 border border-grey-shd5 hover:border-grey-shd3 group focus:border-dark-grey false"
+  >
+    <svg
+      className="w-6 h-4 border-r border-grey-shd5 pr-2 br mr-4 font-light"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+      />
+    </svg>
+    <input
+      className="outline-none block border-0 w-full mr-auto text-2xs md:text-xs false"
+      disabled={false}
+      onChange={[Function]}
+      placeholder=""
+      type="text"
+      value=""
+    />
+    <svg
+      className="w-4 h-4 hidden mr-4"
+      fill="none"
+      onClick={[Function]}
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 2C6.486 2 2 6.486 2 12C2 17.514 6.486 22 12 22C17.514 22 22 17.514 22 12C22 6.486 17.514 2 12 2ZM16.207 14.793L14.793 16.207L12 13.414L9.207 16.207L7.793 14.793L10.586 12L7.793 9.207L9.207 7.793L12 10.586L14.793 7.793L16.207 9.207L13.414 12L16.207 14.793Z"
+        fill="#5B6366"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Input Component should render with select dropdown with its options when passing dropDownPrefix & dropDownOptions=[1,2,3] 1`] = `
+<div
+  className="w-full"
+>
+  <label
+    className="block mb-2 text-2xs md:text-xs "
+  >
+    
+  </label>
+  <div
+    className="flex items-center h-8 rounded-md px-3 py-4 border border-grey-shd5 hover:border-grey-shd3 group focus:border-dark-grey false"
+  >
+    <div
+      className="border-r border-grey-shd5 pr-2 br mr-4 flex items-center"
+    >
+      <label
+        className="text-body-small text-dark-grey capitalize hidden"
+      >
+        :
+      </label>
+      <div
+        className="flex items-center"
+      >
+        <select
+          className="relative z-10 appearance-none border-none bg-transparent pr-4 m-0 w-full font-sans text-body-small capitalize cursor-pointer outline-none"
+        >
+          <option
+            value={1}
+          >
+            1
+          </option>
+          <option
+            value={2}
+          >
+            2
+          </option>
+          <option
+            value={3}
+          >
+            3
+          </option>
+          <option
+            value={4}
+          >
+            4
+          </option>
+        </select>
+        <svg
+          className="w-4 h-4  cursor-pointer -ml-3.5"
+          fill="none"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M16.293 9.29297L12 13.586L7.70697 9.29297L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.29297Z"
+            fill="#5B6366"
+          />
+        </svg>
+      </div>
+    </div>
+    <input
+      className="outline-none block border-0 w-full mr-auto text-2xs md:text-xs false"
+      disabled={false}
+      onChange={[Function]}
+      placeholder=""
+      type="text"
+      value=""
+    />
+    <svg
+      className="w-4 h-4 hidden mr-4"
+      fill="none"
+      onClick={[Function]}
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 2C6.486 2 2 6.486 2 12C2 17.514 6.486 22 12 22C17.514 22 22 17.514 22 12C22 6.486 17.514 2 12 2ZM16.207 14.793L14.793 16.207L12 13.414L9.207 16.207L7.793 14.793L10.586 12L7.793 9.207L9.207 7.793L12 10.586L14.793 7.793L16.207 9.207L13.414 12L16.207 14.793Z"
+        fill="#5B6366"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Input Component should render with x icon to right when passing error 1`] = `
+<div
+  className="w-full"
+>
+  <label
+    className="block mb-2 text-2xs md:text-xs "
+  >
+    
+  </label>
+  <div
+    className="flex items-center h-8 rounded-md px-3 py-4 border border-error hover:border-grey-shd3 group focus:border-dark-grey false"
+  >
+    <input
+      className="outline-none block border-0 w-full mr-auto text-2xs md:text-xs false"
+      disabled={false}
+      onChange={[Function]}
+      placeholder=""
+      type="text"
+      value=""
+    />
+    <svg
+      className="w-4 h-4 hidden mr-4"
+      fill="none"
+      onClick={[Function]}
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 2C6.486 2 2 6.486 2 12C2 17.514 6.486 22 12 22C17.514 22 22 17.514 22 12C22 6.486 17.514 2 12 2ZM16.207 14.793L14.793 16.207L12 13.414L9.207 16.207L7.793 14.793L10.586 12L7.793 9.207L9.207 7.793L12 10.586L14.793 7.793L16.207 9.207L13.414 12L16.207 14.793Z"
+        fill="#5B6366"
+      />
+    </svg>
+    <svg
+      className="w-4 h-4 text-error"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+      />
+    </svg>
+  </div>
+</div>
+`;

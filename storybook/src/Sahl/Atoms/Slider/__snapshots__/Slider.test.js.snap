@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slider Component should change its width when passing different values to progress prop  1`] = `
+<div
+  className="bg-primary h-1 rounded-full"
+  style={
+    Object {
+      "width": "24%",
+    }
+  }
+/>
+`;
+
+exports[`Slider Component should change its width when passing different values to progress prop  2`] = `
+<div
+  className="bg-primary h-1 rounded-full"
+  style={
+    Object {
+      "width": "85%",
+    }
+  }
+/>
+`;
