@@ -3,21 +3,18 @@ import CorrectIcon from "../icons/Correct";
 import WrongIcon from "../icons/Wrong";
 import ArrowDown from "../icons/ArrowDown";
 
-const LabelInput = (props) => {
-  let { status, placeholder } = props;
+const LabelInput = ({ status, placeholder }) => {
   let statusStyle, iconDisplay;
   if (status === "error") {
     statusStyle = "border-error border";
     iconDisplay = <WrongIcon />;
-  }
-  if (status === "normal") {
-    statusStyle = "border-dark border border-opacity-25";
-    iconDisplay = "";
   } else if (status === "success") {
     statusStyle = "border-success border";
     iconDisplay = <CorrectIcon />;
+  } else {
+    statusStyle = "border-dark border border-opacity-25";
+    iconDisplay = "";
   }
-
   return (
     <>
       <div

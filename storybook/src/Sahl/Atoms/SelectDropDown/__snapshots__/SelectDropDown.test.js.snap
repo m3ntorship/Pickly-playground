@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectDropDown Component should render with passed label 1`] = `
+<div
+  className="undefined flex items-center"
+>
+  <label
+    className="text-body-small text-dark-grey capitalize inline-block mr-2"
+    htmlFor="testlabel"
+  >
+    testlabel
+    :
+  </label>
+  <div
+    className="flex items-center"
+  >
+    <select
+      className="relative z-10 appearance-none border-none bg-transparent pr-4 m-0 w-full font-sans text-body-small capitalize cursor-pointer outline-none"
+      id="testlabel"
+    >
+      <option
+        value="Option 1"
+      >
+        Option 1
+      </option>
+      <option
+        value="Option 2"
+      >
+        Option 2
+      </option>
+      <option
+        value="Option 3"
+      >
+        Option 3
+      </option>
+    </select>
+    <svg
+      className="w-4 h-4  cursor-pointer -ml-3.5"
+      fill="none"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M16.293 9.29297L12 13.586L7.70697 9.29297L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.29297Z"
+        fill="#5B6366"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`SelectDropDown Component should render with passed options options=['Option 1','Option 2','Option 3'] 1`] = `
+<div
+  className="undefined flex items-center"
+>
+  <label
+    className="text-body-small text-dark-grey capitalize hidden"
+  >
+    :
+  </label>
+  <div
+    className="flex items-center"
+  >
+    <select
+      className="relative z-10 appearance-none border-none bg-transparent pr-4 m-0 w-full font-sans text-body-small capitalize cursor-pointer outline-none"
+    >
+      <option
+        value="Option 1"
+      >
+        Option 1
+      </option>
+      <option
+        value="Option 2"
+      >
+        Option 2
+      </option>
+      <option
+        value="Option 3"
+      >
+        Option 3
+      </option>
+    </select>
+    <svg
+      className="w-4 h-4  cursor-pointer -ml-3.5"
+      fill="none"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M16.293 9.29297L12 13.586L7.70697 9.29297L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.29297Z"
+        fill="#5B6366"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`SelectDropDown Component should render without label by default 1`] = `
+<div
+  className="undefined flex items-center"
+>
+  <label
+    className="text-body-small text-dark-grey capitalize hidden"
+  >
+    :
+  </label>
+  <div
+    className="flex items-center"
+  >
+    <select
+      className="relative z-10 appearance-none border-none bg-transparent pr-4 m-0 w-full font-sans text-body-small capitalize cursor-pointer outline-none"
+    >
+      <option
+        value="Option 1"
+      >
+        Option 1
+      </option>
+      <option
+        value="Option 2"
+      >
+        Option 2
+      </option>
+      <option
+        value="Option 3"
+      >
+        Option 3
+      </option>
+    </select>
+    <svg
+      className="w-4 h-4  cursor-pointer -ml-3.5"
+      fill="none"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M16.293 9.29297L12 13.586L7.70697 9.29297L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.29297Z"
+        fill="#5B6366"
+      />
+    </svg>
+  </div>
+</div>
+`;

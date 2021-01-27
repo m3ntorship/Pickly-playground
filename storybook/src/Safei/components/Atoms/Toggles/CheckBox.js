@@ -59,6 +59,7 @@ const CheckBox = (props) => {
         type="checkbox"
         className="h-5 w-5 opacity-0"
         disabled={props.disabled}
+        data-testid="checkbox-test"
       />
     </div>
   );

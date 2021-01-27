@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Component should render disabled when passing disabled 1`] = `
+<button
+  className="undefined rounded-full border disabled:opacity-30 flex items-center bg-primary text-white hover:bg-primary-shd9 focus:border-primary-shd9 focus:border-solid focus:outline-none py-2.5 px-6"
+  disabled={true}
+>
+  <span>
+    Test Button
+  </span>
+</button>
+`;
+
+exports[`Button Component should render with both left & right arrow when passing leftArrow & rightArrow 1`] = `
+<button
+  className="undefined rounded-full border disabled:opacity-30 flex items-center bg-primary text-white hover:bg-primary-shd9 focus:border-primary-shd9 focus:border-solid focus:outline-none py-2.5 px-6"
+  disabled={false}
+>
+  <svg
+    className="w-6 h-6 undefined"
+    fill="none"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M16.293 9.29297L12 13.586L7.70697 9.29297L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.29297Z"
+      fill="#5B6366"
+    />
+  </svg>
+  <span>
+    Test Button
+  </span>
+  <svg
+    className="w-6 h-6 undefined"
+    fill="none"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M16.293 9.29297L12 13.586L7.70697 9.29297L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.29297Z"
+      fill="#5B6366"
+    />
+  </svg>
+</button>
+`;
+
+exports[`Button Component should render with children when passing it 1`] = `
+<button
+  className="undefined rounded-full border disabled:opacity-30 flex items-center bg-primary text-white hover:bg-primary-shd9 focus:border-primary-shd9 focus:border-solid focus:outline-none py-2.5 px-6"
+  disabled={false}
+>
+  <span>
+    Test Button
+  </span>
+</button>
+`;
+
+exports[`Button Component should render with large size when size="lg" is passed 1`] = `
+<button
+  className="undefined rounded-full border disabled:opacity-30 flex items-center bg-primary text-white hover:bg-primary-shd9 focus:border-primary-shd9 focus:border-solid focus:outline-none py-3.5 px-8"
+  disabled={false}
+>
+  <span>
+    Test Button
+  </span>
+</button>
+`;
+
+exports[`Button Component should render with left Arrow when passing leftArrow 1`] = `
+<button
+  className="undefined rounded-full border disabled:opacity-30 flex items-center bg-primary text-white hover:bg-primary-shd9 focus:border-primary-shd9 focus:border-solid focus:outline-none py-2.5 px-6"
+  disabled={false}
+>
+  <svg
+    className="w-6 h-6 undefined"
+    fill="none"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M16.293 9.29297L12 13.586L7.70697 9.29297L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.29297Z"
+      fill="#5B6366"
+    />
+  </svg>
+  <span>
+    Test Button
+  </span>
+</button>
+`;
+
+exports[`Button Component should render with medium size as default when no size is passed 1`] = `
+<button
+  className="undefined rounded-full border disabled:opacity-30 flex items-center bg-primary text-white hover:bg-primary-shd9 focus:border-primary-shd9 focus:border-solid focus:outline-none py-2.5 px-6"
+  disabled={false}
+>
+  <span>
+    Test Button
+  </span>
+</button>
+`;
+
+exports[`Button Component should render with primary variant as default without passing any props 1`] = `
+<button
+  className="undefined rounded-full border disabled:opacity-30 flex items-center bg-primary text-white hover:bg-primary-shd9 focus:border-primary-shd9 focus:border-solid focus:outline-none py-2.5 px-6"
+  disabled={false}
+>
+  <span>
+    Test Button
+  </span>
+</button>
+`;
+
+exports[`Button Component should render with right arrow when passing rightArrow 1`] = `
+<button
+  className="undefined rounded-full border disabled:opacity-30 flex items-center bg-primary text-white hover:bg-primary-shd9 focus:border-primary-shd9 focus:border-solid focus:outline-none py-2.5 px-6"
+  disabled={false}
+>
+  <span>
+    Test Button
+  </span>
+  <svg
+    className="w-6 h-6 undefined"
+    fill="none"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M16.293 9.29297L12 13.586L7.70697 9.29297L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.29297Z"
+      fill="#5B6366"
+    />
+  </svg>
+</button>
+`;
+
+exports[`Button Component should render with secondary variant when variant="secondary" 1`] = `
+<button
+  className="undefined rounded-full border disabled:opacity-30 flex items-center bg-white text-primary border-primary border-solid hover:bg-grey-bg2 focus:border-2 focus:outline-none py-2.5 px-6"
+  disabled={false}
+>
+  <span>
+    Test Button
+  </span>
+</button>
+`;
+
+exports[`Button Component should render with small size when size="sm" is passed 1`] = `
+<button
+  className="undefined rounded-full border disabled:opacity-30 flex items-center bg-primary text-white hover:bg-primary-shd9 focus:border-primary-shd9 focus:border-solid focus:outline-none py-1.5 px-4"
+  disabled={false}
+>
+  <span>
+    Test Button
+  </span>
+</button>
+`;
+
+exports[`Button Component should render without any props 1`] = `
+<button
+  className="undefined rounded-full border disabled:opacity-30 flex items-center bg-primary text-white hover:bg-primary-shd9 focus:border-primary-shd9 focus:border-solid focus:outline-none py-2.5 px-6"
+  disabled={false}
+>
+  <span>
+    Test Button
+  </span>
+</button>
+`;
