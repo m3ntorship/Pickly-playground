@@ -5,10 +5,14 @@
   "dependencies": {
     "@craco/craco": "^6.0.0",
     "autoprefixer": "^9.8.6",
+    "axios": "^0.21.1",
     "classnames": "^2.2.6",
+    "jest-mock-axios": "^4.2.1",
     "postcss": "^7.0.35",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
     "web-vitals": "^1.0.1"
@@ -30,11 +34,6 @@
     ],
     "*.{jsx,js}": "eslint --cache --fix",
     "*.{js,css,md}": "prettier --write"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "eslintConfig": {
     "extends": [

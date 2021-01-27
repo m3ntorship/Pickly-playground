@@ -34,7 +34,7 @@ export const Avater = ({ type, size }) => {
 
   return (
     <>
-      <div title="avatarTest"
+      <div title="avatarTest" aria-label="avatarTest"
         className={`flex justify-center items-center rounded-full mr-4 ${divSizeStyle} ${bgStyle}`}
       >
         {type === AVATER.TYPE.FILLED && (
