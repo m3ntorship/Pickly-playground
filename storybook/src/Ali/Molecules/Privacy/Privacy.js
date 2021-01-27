@@ -6,10 +6,6 @@ const Privacy = (props) => {
   const {
     togglerDisabled,
     identityText,
-    firstPrivacyOption,
-    secondPrivacyOption,
-    thirdPrivacyOption,
-    fourthPrivacyOption,
     firstPrivacyOptionAvailable,
     secondPrivacyOptionAvailable,
     thirdPrivacyOptionAvailable,
@@ -30,40 +26,40 @@ const Privacy = (props) => {
             Privacy:
           </span>
           <div className="flex relative">
-            <select className="text-sm font-medium text-dark-grey pr-m focus:outline-none cursor-pointer appearance-none">
+            <select className="text-sm font-medium text-dark-grey focus:outline-none cursor-pointer">
               <option
-                className={`${!firstPrivacyOptionAvailable && "hidden"} `}
+                className={`font-medium ${
+                  !firstPrivacyOptionAvailable && "hidden"
+                } `}
+                value={`Public`}
               >
-                {firstPrivacyOption}
+                {`Public`}
               </option>
               <option
-                className={`${!secondPrivacyOptionAvailable && "hidden"} `}
+                className={`font-medium ${
+                  !secondPrivacyOptionAvailable && "hidden"
+                } `}
+                value={`Friends`}
               >
-                {secondPrivacyOption}
+                {`Friends`}
               </option>
               <option
-                className={`${!thirdPrivacyOptionAvailable && "hidden"} `}
+                className={`font-medium ${
+                  !thirdPrivacyOptionAvailable && "hidden"
+                } `}
+                value={`Family`}
               >
-                {thirdPrivacyOption}
+                {`Family`}
               </option>
               <option
-                className={`${!fourthPrivacyOptionAvailable && "hidden"} `}
+                className={`font-medium ${
+                  !fourthPrivacyOptionAvailable && "hidden"
+                } `}
+                value={`Private`}
               >
-                {fourthPrivacyOption}
+                {`Private`}
               </option>
             </select>
-            <svg
-              width="8"
-              height="5"
-              viewBox="0 0 8 5"
-              className="fill-current text-dark-grey absolute right-0 top-1/2 transform -translate-y-1/2	 pointer-events-none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M6.86198 0.195343L3.99998 3.05734L1.13798 0.195343L0.195312 1.13801L3.99998 4.94268L7.80465 1.13801L6.86198 0.195343Z"
-                fill="#5B6366"
-              />
-            </svg>
           </div>
         </div>
       </div>
@@ -75,12 +71,8 @@ export default Privacy;
 Privacy.propTypes = {
   togglerDisabled: PropTypes.bool,
   identityText: PropTypes.string,
-  firstPrivacyOption: PropTypes.string,
   firstPrivacyOptionAvailable: PropTypes.bool,
-  secondPrivacyOption: PropTypes.string,
   secondPrivacyOptionAvailable: PropTypes.bool,
-  thirdPrivacyOption: PropTypes.string,
   thirdPrivacyOptionAvailable: PropTypes.bool,
-  fourthPrivacyOption: PropTypes.string,
   fourthPrivacyOptionAvailable: PropTypes.bool,
 };

@@ -15,8 +15,4 @@ privacy.args = {
   secondPrivacyOptionAvailable: true,
   thirdPrivacyOptionAvailable: true,
   fourthPrivacyOptionAvailable: true,
-  firstPrivacyOption: "Public",
-  secondPrivacyOption: "Friends",
-  thirdPrivacyOption: "Family",
-  fourthPrivacyOption: "Private",
 };
