@@ -13,4 +13,8 @@ pollOptions.args = {
   showImgPoll: true,
   showTextPoll: true,
   showMiniSurvey: true,
+  pollOptionsGroupName: "PollOptions1",
+  imgPollText: "Image Poll",
+  textPollText: "Text Poll",
+  miniSurveyText: "Mini Survey",
 };

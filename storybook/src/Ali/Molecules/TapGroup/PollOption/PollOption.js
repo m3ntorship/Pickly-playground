@@ -1,21 +1,15 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 
 const PollOption = (props) => {
-  let { pollName, pollChecked, setPollChecked, pollText } = props;
+  let { pollName, pollChecked, pollText, groupName, onChange } = props;
+  const [isChecked, setIsChecked] = useState(false);
   let svg = "";
 
-  if (!pollChecked && !setPollChecked) {
-    [pollChecked, setPollChecked] = useState();
-  }
-  const onChange = (e) => {
-    setPollChecked(e.target.value);
-  };
-
-  !pollText && pollName === "Img" && (pollText = "Image Poll");
-  !pollText && pollName === "Text" && (pollText = "Text Poll");
-  !pollText && pollName === "Mini-Survey" && (pollText = "Mini Survey");
+  useEffect(() => {
+    setIsChecked(pollName === pollChecked);
+  }, [pollChecked]);
 
   if (pollName === "Img") {
     svg = (
@@ -85,24 +79,20 @@ const PollOption = (props) => {
     <label
       htmlFor={pollName}
       className={`${
-        pollName === pollChecked
-          ? "border border-grey"
-          : "border border-grey-bg bg-grey-bg"
+        isChecked ? "border border-grey" : "border border-grey-bg bg-grey-bg"
       } mx-2 py-1.5 pl-3 pr-3.5 rounded-full w-max flex items-center cursor-pointer`}
     >
       <input
         className={`hidden`}
         type="radio"
         id={pollName}
-        name="pollOption"
+        name={groupName}
         value={pollName}
         onChange={onChange}
       />
       <div
         className={`w-4 h-4  ${
-          pollName === pollChecked
-            ? " bg-primary "
-            : " border border-grey-shd4 "
+          isChecked ? " bg-primary " : " border border-grey-shd4 "
         } rounded-full flex justify-center items-center`}
       >
         <div className={`w-1.5 h-1.5 bg-white rounded-full`}></div>

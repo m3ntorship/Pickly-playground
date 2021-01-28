@@ -11,9 +11,12 @@ const PollOptions = (props) => {
     imgPollText,
     textPollText,
     miniSurveyText,
+    pollOptionsGroupName,
   } = props;
-  const [pollChecked, setPollChecked] = useState("");
-
+  const [pollChecked, setPollChecked] = useState("Img");
+  const onChange = (e) => {
+    setPollChecked(e.target.value);
+  };
   return (
     <div className={`flex`}>
       {showImgPoll && (
@@ -22,6 +25,8 @@ const PollOptions = (props) => {
           setPollChecked={setPollChecked}
           pollName={"Img"}
           pollText={imgPollText}
+          groupName={pollOptionsGroupName}
+          onChange={onChange}
         />
       )}
       {showTextPoll && (
@@ -30,6 +35,8 @@ const PollOptions = (props) => {
           setPollChecked={setPollChecked}
           pollName={"Text"}
           pollText={textPollText}
+          groupName={pollOptionsGroupName}
+          onChange={onChange}
         />
       )}
       {showMiniSurvey && (
@@ -38,6 +45,8 @@ const PollOptions = (props) => {
           setPollChecked={setPollChecked}
           pollName={"Mini-Survey"}
           pollText={miniSurveyText}
+          groupName={pollOptionsGroupName}
+          onChange={onChange}
         />
       )}
     </div>
@@ -52,4 +61,5 @@ PollOptions.propTypes = {
   textPollText: PropTypes.string,
   showMiniSurvey: PropTypes.bool,
   miniSurveyText: PropTypes.string,
+  pollOptionsGroupName: PropTypes.string,
 };
