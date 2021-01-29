@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar Testing Avatar anonymous false state testing 1`] = `
+<img
+  alt="Profile Picture"
+  className="rounded-full object-cover mr-5 w-8 h-8"
+  src="./anonymous.svg"
+/>
+`;
+
+exports[`Avatar Testing Avatar default testing with size big and anonymous state 1`] = `
+<img
+  alt="Profile Picture"
+  className="rounded-full object-cover mr-5 w-8 h-8"
+  src="https://source.unsplash.com/random"
+/>
+`;
+
+exports[`Avatar Testing Avatar size medium testing 1`] = `
+<img
+  alt="Profile Picture"
+  className="rounded-full object-cover mr-5 w-10 h-10"
+  src="https://source.unsplash.com/random"
+/>
+`;
+
+exports[`Avatar Testing Avatar size small testing 1`] = `
+<img
+  alt="Profile Picture"
+  className="rounded-full object-cover mr-5 w-8 h-8"
+  src="https://source.unsplash.com/random"
+/>
+`;

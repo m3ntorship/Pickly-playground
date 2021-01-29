@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Testing Button default testing with primary, size small and content 'button' 1`] = `
+<button
+  className="rounded-full border disabled:opacity-30 flex items-center bg-primary text-white hover:bg-primary-shd9 focus:outline-none focus:border-primary-shd9 text-sm py-1.5 px-m"
+  data-testid="btn-case"
+  disabled={false}
+>
+  <span />
+</button>
+`;
+
+exports[`Button Testing Button disable state 1`] = `
+<button
+  className="rounded-full border disabled:opacity-30 flex items-center bg-primary text-white hover:bg-primary-shd9 focus:outline-none focus:border-primary-shd9 text-sm py-1.5 px-m"
+  data-testid="btn-case"
+  disabled={true}
+>
+  <span />
+</button>
+`;
+
+exports[`Button Testing Button with size large 1`] = `
+<button
+  className="rounded-full border disabled:opacity-30 flex items-center bg-primary text-white hover:bg-primary-shd9 focus:outline-none focus:border-primary-shd9 text-md py-3.5 px-xl"
+  data-testid="btn-case"
+  disabled={false}
+>
+  <span />
+</button>
+`;
+
+exports[`Button Testing Button with size medium 1`] = `
+<button
+  className="rounded-full border disabled:opacity-30 flex items-center bg-primary text-white hover:bg-primary-shd9 focus:outline-none focus:border-primary-shd9 text-base py-xs px-l"
+  data-testid="btn-case"
+  disabled={false}
+>
+  <span />
+</button>
+`;
+
+exports[`Button Testing Button with variant secondary 1`] = `
+<button
+  className="rounded-full border disabled:opacity-30 flex items-center bg-white text-primary border-primary border-solid hover:bg-grey-bg2 focus:border-2 focus:outline-none text-sm py-1.5 px-m"
+  data-testid="btn-case"
+  disabled={false}
+>
+  <span />
+</button>
+`;
