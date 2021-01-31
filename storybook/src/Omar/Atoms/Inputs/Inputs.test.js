@@ -1,15 +1,14 @@
 import React from "react";
 import renderer from "react-test-renderer";
-import { render, screen } from "@testing-library/react";
-import userEvent from "@testing-library/user-event";
+import { render, screen, fireEvent } from "@testing-library/react";
+//import userEvent from "@testing-library/user-event";
 import { Inputs } from "./Inputs";
 
 describe("should change input text", () => {
   it("show what user write", () => {
-    const inputMock = jest.fn();
-    render(<Inputs onChange={inputMock} />);
+    render(<Inputs />);
     const inputText = screen.getByTestId("textChange");
-    userEvent.type(inputText, "i write");
+    fireEvent.change(inputText, { target: { value: "i write" } });
     expect(inputText.value).toBe("i write");
   });
 });

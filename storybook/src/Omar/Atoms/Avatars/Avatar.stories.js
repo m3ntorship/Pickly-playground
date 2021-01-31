@@ -15,6 +15,12 @@ export default {
         ],
       },
     },
+    type: {
+      control: {
+        type: "select",
+        options: ["filled", "notFilled", "anon"],
+      },
+    },
   },
 };
 
@@ -22,6 +28,6 @@ const Template = (args) => <Avatar {...args} />;
 
 export const Profile_Picture = Template.bind({});
 Profile_Picture.args = {
-  anonymous: true,
+  type: "filled",
   size: AVATAR_OPTIONS.SIZE.BIG,
 };

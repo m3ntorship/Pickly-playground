@@ -15,5 +15,5 @@ Default.args = {
   size: "sm",
   variant: "primary",
   disabled: false,
-  content: "Button",
+  children: "Button",
 };

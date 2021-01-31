@@ -29,7 +29,7 @@ export const ImagePoll = (props) => {
       <div className="bg-grey-bg p-8">
         <div className="bg-white w-3/5 rounded-md m-auto">
           <div className="p-4">
-            <div className="flex items-center mb-4">
+            <div className="flex items-center justify-between mb-4">
               <Avatar anonymous={avatarType} size={avatarSize} />
               <div className="flex items-center">
                 <Tab
@@ -84,11 +84,9 @@ export const ImagePoll = (props) => {
                 <option value="private">Private</option>
               </select>
             </div>
-            <Button
-              disabled={buttonDisabled}
-              size={buttonsSize}
-              content="Post"
-            />
+            <Button disabled={buttonDisabled} size={buttonsSize}>
+              Button
+            </Button>
           </div>
         </div>
       </div>

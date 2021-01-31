@@ -7,7 +7,7 @@ import { Button } from "./Button";
 it("should click", () => {
   const mockClick = jest.fn();
   render(<Button onClick={mockClick}></Button>);
-  const btn = screen.getByTestId("btn-case");
+  const btn = screen.getByRole("button");
   userEvent.click(btn);
   expect(mockClick).toHaveBeenCalledTimes(1);
 });

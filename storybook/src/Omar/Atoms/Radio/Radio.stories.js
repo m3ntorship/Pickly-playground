@@ -19,4 +19,5 @@ export const Default = Template.bind({});
 Default.args = {
   size: RADIO.SIZE.SMALL,
   disabled: false,
+  label: "Radio",
 };

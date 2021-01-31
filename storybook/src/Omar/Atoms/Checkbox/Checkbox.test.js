@@ -2,7 +2,7 @@ import React from "react";
 import { screen, render } from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";
 import userEvent from "@testing-library/user-event";
-import Checkbox from "./Checkbox";
+import { Checkbox } from "./Checkbox";
 
 describe("Checkbox component", () => {
   it("Checkbox not clicked while it's disabled", () => {
@@ -16,12 +16,12 @@ describe("Checkbox component", () => {
 
   it("check if it's clicked", () => {
     render(<Checkbox />);
+    userEvent.click(screen.getByRole("checkbox"));
     expect(screen.getByRole("checkbox")).toBeChecked();
   });
 
   it("check if it's not clicked", () => {
     render(<Checkbox />);
-    userEvent.click(screen.getByRole("checkbox"));
     expect(screen.getByRole("checkbox")).not.toBeChecked();
   });
 });

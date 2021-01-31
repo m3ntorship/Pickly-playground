@@ -1,9 +1,10 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-const WrongIcon = () => {
+const Error = ({ className }) => {
   return (
     <svg
-      className="w-3 h-3 mr-4"
+      className={className}
       width="16"
       height="16"
       viewBox="0 0 16 16"
@@ -21,5 +22,7 @@ const WrongIcon = () => {
     </svg>
   );
 };
-
-export default WrongIcon;
+export default Error;
+Error.propTypes = {
+  className: PropTypes.string,
+};

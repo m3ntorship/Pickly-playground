@@ -2,13 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 export const Button = (props) => {
-  const {
-    disabled = false,
-    size = "sm",
-    variant = "primary",
-    content,
-    onClick,
-  } = props;
+  const { disabled = false, size = "sm", variant = "primary", onClick } = props;
 
   return (
     <button
@@ -27,7 +21,7 @@ export const Button = (props) => {
           : "text-base py-xs px-l"
       }`}
     >
-      <span>{content}</span>
+      {props.children}
     </button>
   );
 };
@@ -36,6 +30,5 @@ Button.propTypes = {
   size: PropTypes.oneOf(["sm", "md", "lg"]),
   disabled: PropTypes.bool,
   variant: PropTypes.oneOf(["primary", "secondary"]),
-  className: PropTypes.string,
-  content: PropTypes.string,
+  children: PropTypes.string,
 };

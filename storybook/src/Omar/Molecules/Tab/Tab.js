@@ -25,7 +25,7 @@ export const Tab = (props) => {
   return (
     <button
       className={`focus:outline-none mr-5 ${
-        ButtonSize === SIZE.BUTTONSIZE.SMALL ? "w-28 h-2" : "w-32 h-4"
+        ButtonSize === SIZE.BUTTONSIZE.SMALL ? "w-28 h-6" : "w-32 h-8"
       }`}
     >
       <label
@@ -37,7 +37,7 @@ export const Tab = (props) => {
         <>
           {isChecked && (
             <label
-              htmlFor="radio-label1"
+              htmlFor="radioPoll"
               className={` relative rounded-lg bg-primary flex justify-center items-center hover:bg-primary-shd8 focus:ring-2 focus:ring-offset-primary-shd6 focus:outline-none ${
                 ButtonSize === SIZE.BUTTONSIZE.SMALL ? "w-4 h-4" : "w-5 h-5"
               } ${disabled && "bg-primary-shd7"}`}
@@ -49,7 +49,7 @@ export const Tab = (props) => {
                   disabled && "cursor-not-allowed"
                 }`}
                 id="radio-label1"
-                name="radio"
+                name="radioPoll"
                 checked={disabled}
               />
               <div
