@@ -1,32 +1,21 @@
 import React from "react";
-import { Button, BUTTON_OPTIONS } from "./BtnTextOnly";
+import Button from "./BtnTextOnly";
 
-export default {
-  title: "Heba/atoms/Buttons/BtnTextOnly",
+const defaultExport = {
+  title: "Heba/atoms/Buttons/All Cases Of Button",
   component: Button,
-  argTypes: {
-    size: {
-      control: {
-        type: "radio",
-        options: [
-          BUTTON_OPTIONS.SIZE.SMALL,
-          BUTTON_OPTIONS.SIZE.MEDIUM,
-          BUTTON_OPTIONS.SIZE.BIG,
-        ],
-      },
-    },
-    iconDir: {
-      control: {
-        type: "radio",
-        options: [BUTTON_OPTIONS.ICON.LEFT, BUTTON_OPTIONS.ICON.RIGHT],
-      },
-    },
-  },
 };
+
+export default defaultExport;
+
 const Template = (args) => <Button {...args} />;
-export const Primary = Template.bind({});
-Primary.args = {
+
+export const Default = Template.bind({});
+Default.args = {
+  size: "lg",
+  variant: "primary",
+  disabled: false,
+  leftIcon: false,
+  rightIcon: false,
   children: "Button Text",
-  iconDir: BUTTON_OPTIONS.ICON.LEFT,
-  size: BUTTON_OPTIONS.SIZE.BIG,
 };

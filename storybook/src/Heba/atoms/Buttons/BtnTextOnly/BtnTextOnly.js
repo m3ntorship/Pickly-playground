@@ -1,58 +1,115 @@
 import React from "react";
-import cn from "classnames";
-export const BUTTON_OPTIONS = {
-  SIZE: {
-    SMALL: "small",
-    MEDIUM: "medium",
-    BIG: "big",
-  },
-  ICON: {
-    LEFT: "left",
-    RIGHT: "right",
-  },
-};
-export const Button = ({ children, size, iconDir }) => {
-  return (
-    <div className="flex justify-start items-center ">
-      <button
-        type="button"
-        className={cn(
-          iconDir === BUTTON_OPTIONS.ICON.RIGHT
-            ? "flex  items-center justify-center"
-            : "flex  items-center justify-center flex-row-reverse font-bold",
-          " text-primary hover:text-primary-shd2 focus:outline-none focus:underline mr-4",
-          {
-            "py-4 px-8  font-sans font-normal-700 text-md":
-              size === BUTTON_OPTIONS.SIZE.BIG,
-          },
-          {
-            "py-2 px-6 text-base font-medium":
-              size === BUTTON_OPTIONS.SIZE.MEDIUM,
-          },
+import PropTypes from "prop-types";
 
-          {
-            "py-1 px-4 font-sans f  text-sm":
-              size === BUTTON_OPTIONS.SIZE.SMALL,
-          }
-        )}
-      >
-        <span className="mx-3"> {children}</span>
-        <div>
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className="fill-current text-white"
-          >
-            <path
-              d="M16.293 9.293L12 13.586L7.70697 9.293L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.293Z"
-              className={cn(" text-primary fill-current")}
-            />
-          </svg>
-        </div>
-      </button>
-    </div>
+const Button = (props) => {
+  const {
+    children,
+    disabled = false,
+    variant = "primary",
+    size = "lg",
+    leftIcon = false,
+    rightIcon = false,
+    onlyIcon = false,
+  } = props;
+  let padding = "";
+  let iconSize = "";
+  if (onlyIcon) {
+    if (size === "md") {
+      padding = "p-xs text-base font-medium";
+    } else if (size === "sm") {
+      padding = "p-xs text-sm font-medium";
+    } else {
+      padding = "p-s text-md font-bold";
+    }
+  } else {
+    if (size === "md") {
+      padding = "py-xs px-l text-base font-medium";
+    } else if (size === "sm") {
+      padding = "py-s px-m text-sm font-medium";
+    } else {
+      padding = "py-m px-xl text-md font-bold";
+    }
+  }
+  if (onlyIcon) {
+    if (size === "md") {
+      iconSize = "24";
+    } else if (size === "sm") {
+      iconSize = "16";
+    } else {
+      iconSize = "32";
+    }
+  } else {
+    if (size === "md" || size === "sm") {
+      iconSize = "16";
+    } else {
+      iconSize = "24";
+    }
+  }
+  return (
+    <button
+      className={`rounded-full focus:outline-none ml-4 mt-4 focus:border-2 focus:border-dark-btnFocus ${
+        variant === "secondary"
+          ? "bg-white hover:bg-grey-bg border border-primary focus:border-primary text-primary"
+          : variant === "text"
+          ? "bg-none text-accent hover:text-accent-hover focus:underline"
+          : "bg-primary hover:bg-primary-hover text-white"
+      } ${padding} ${disabled ? "opacity-25 pointer-events-none" : ""}`}
+    >
+      {rightIcon ? (
+        <svg
+          className={`${onlyIcon ? null : "mr-xxs"} inline-block`}
+          width={iconSize}
+          height={iconSize}
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M16.293 9.293L12 13.586L7.70697 9.293L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.293Z"
+            fill={`${
+              variant === "secondary"
+                ? "#7048E8"
+                : variant === "text"
+                ? "#00A8E8"
+                : "white"
+            }`}
+          ></path>
+        </svg>
+      ) : null}
+      {onlyIcon ? null : children}
+      {leftIcon ? (
+        <svg
+          className={`${onlyIcon ? null : "ml-xxs"} inline-block`}
+          width={iconSize}
+          height={iconSize}
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M16.293 9.293L12 13.586L7.70697 9.293L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.293Z"
+            fill={`${
+              variant === "secondary"
+                ? "#7048E8"
+                : variant === "text"
+                ? "#00A8E8"
+                : "white"
+            }`}
+          ></path>
+        </svg>
+      ) : null}
+    </button>
   );
 };
+
+Button.propTypes = {
+  children: PropTypes.string,
+  disabled: PropTypes.bool,
+  variant: PropTypes.oneOf(["primary", "secondary", "text"]),
+  size: PropTypes.oneOf(["sm", "md", "lg"]),
+  leftIcon: PropTypes.bool,
+  rightIcon: PropTypes.bool,
+  onlyIcon: PropTypes.bool,
+};
+
+export default Button;
