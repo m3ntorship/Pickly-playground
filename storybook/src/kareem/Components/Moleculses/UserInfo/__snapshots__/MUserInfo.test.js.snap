@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render the UserInfo Moleculses  Kareem: Render UserInfo with anonymous in large size   1`] = `
+<div
+  className="flex items-center justify-start h-10"
+>
+  <div>
+    <img
+      alt="./anonymus.png"
+      className="w-14 h-14 rounded-xl"
+      data-testid="testidImg"
+      src="./anonymus.png"
+      title="dummyImg"
+    />
+  </div>
+  <div
+    className="flex-col ml-4"
+  >
+    <span
+      className="h-5 w-48 font-sans text-sm text-black font-bold block"
+    >
+      Kareem Mohamed
+    </span>
+    <span
+      className="h-5 w-28 font-sans text-sm text-dark-grey block"
+    >
+      4
+       hours ago
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Render the UserInfo Moleculses  Kareem: Render UserInfowith default cases Normal case and size medium  1`] = `
+<div
+  className="flex items-center justify-start h-10"
+>
+  <div>
+    <img
+      alt="./avatar.png"
+      className="w-10 h-10 rounded-xl"
+      data-testid="testidImg"
+      src="./avatar.png"
+      title="dummyImg"
+    />
+  </div>
+  <div
+    className="flex-col ml-4"
+  >
+    <span
+      className="h-5 w-48 font-sans text-sm text-black font-bold block"
+    >
+      Kareem Mohamed
+    </span>
+    <span
+      className="h-5 w-28 font-sans text-sm text-dark-grey block"
+    >
+      4
+       hours ago
+    </span>
+  </div>
+</div>
+`;
