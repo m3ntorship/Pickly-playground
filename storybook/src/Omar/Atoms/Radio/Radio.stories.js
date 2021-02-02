@@ -17,7 +17,8 @@ export default {
 const Template = (args) => <Radio {...args} />;
 export const Default = Template.bind({});
 Default.args = {
-  size: RADIO.SIZE.SMALL,
+  size: RADIO.SIZE.DEFAULT,
   disabled: false,
-  label: "Radio",
+  label1: "Radio1",
+  label2: "Radio2",
 };

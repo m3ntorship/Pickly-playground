@@ -1,9 +1,17 @@
 import React from "react";
 import PropTypes from "prop-types";
-
+import DownArrow from "../../assets/DownArrow";
 export const Button = (props) => {
-  const { disabled = false, size = "sm", variant = "primary", onClick } = props;
-
+  const {
+    disabled = false,
+    size = "sm",
+    variant = "primary",
+    onClick,
+    leftIcon,
+    rightIcon,
+  } = props;
+  const arrowStyle = size === "sm" ? "w-4 h-4" : "w-5 h-5";
+  const arrowColor = variant === "primary" ? "white" : "#7048E8";
   return (
     <button
       data-testid="btn-case"
@@ -21,7 +29,9 @@ export const Button = (props) => {
           : "text-base py-xs px-l"
       }`}
     >
+      {leftIcon && <DownArrow className={arrowStyle} colorFill={arrowColor} />}
       {props.children}
+      {rightIcon && <DownArrow className={arrowStyle} colorFill={arrowColor} />}
     </button>
   );
 };
@@ -31,4 +41,6 @@ Button.propTypes = {
   disabled: PropTypes.bool,
   variant: PropTypes.oneOf(["primary", "secondary"]),
   children: PropTypes.string,
+  leftIcon: PropTypes.bool,
+  rightIcon: PropTypes.bool,
 };

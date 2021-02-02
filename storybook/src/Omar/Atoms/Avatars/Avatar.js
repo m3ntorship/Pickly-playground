@@ -7,7 +7,7 @@ export const AVATAR_OPTIONS = {
   },
 };
 
-export const Avatar = ({ type = "filled", size }) => {
+export const Avatar = ({ type = "filled", size, src }) => {
   let avatarSize =
     size === AVATAR_OPTIONS.SIZE.BIG
       ? "w-14 h-14"
@@ -16,13 +16,14 @@ export const Avatar = ({ type = "filled", size }) => {
       : "w-8 h-8";
 
   let avatarImg;
+  const srcImg = !src ? "https://source.unsplash.com/random" : src;
 
   switch (type) {
     case "filled":
       avatarImg = (
         <img
           className={`${avatarSize} rounded-full object-cover`}
-          src={"https://source.unsplash.com/random"}
+          src={srcImg}
           alt="Profile Pic"
         />
       );

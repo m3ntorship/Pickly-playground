@@ -1,10 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Close = ({ className }) => {
+const Close = ({ className, onClick }) => {
   return (
     <svg
       className={className}
+      onClick={onClick}
       width="14"
       height="14"
       viewBox="0 0 14 14"
