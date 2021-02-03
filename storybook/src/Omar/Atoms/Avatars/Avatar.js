@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 export const AVATAR_OPTIONS = {
   SIZE: {
     SMALL: "sm",
@@ -16,14 +17,13 @@ export const Avatar = ({ type = "filled", size, src }) => {
       : "w-8 h-8";
 
   let avatarImg;
-  const srcImg = !src ? "https://source.unsplash.com/random" : src;
 
   switch (type) {
     case "filled":
       avatarImg = (
         <img
           className={`${avatarSize} rounded-full object-cover`}
-          src={srcImg}
+          src={src}
           alt="Profile Pic"
         />
       );
@@ -79,4 +79,8 @@ export const Avatar = ({ type = "filled", size, src }) => {
       break;
   }
   return <div>{avatarImg}</div>;
+};
+
+Avatar.propTypes = {
+  src: PropTypes.string,
 };

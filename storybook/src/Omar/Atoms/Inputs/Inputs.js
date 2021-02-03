@@ -4,6 +4,7 @@ import Success from "./../../assets/Success";
 import Error from "./../../assets/Error";
 import Close from "./../../assets/Close";
 import Home from "./../../assets/Home";
+import Caption from "./../../assets/Caption";
 import RightIcon from "./../../assets/RightIcon";
 export const OPTION = {
   STATUS: {
@@ -14,7 +15,7 @@ export const OPTION = {
   },
 };
 
-export const Inputs = ({ type, label, placeHolder, icon }) => {
+export const Inputs = ({ type, label, placeHolder, icon, leftIcon }) => {
   const [value, setValue] = useState("");
   const handleChange = (e) => {
     setValue(e.target.value);
@@ -34,6 +35,7 @@ export const Inputs = ({ type, label, placeHolder, icon }) => {
       : "border border-dark-default";
   const stateIconStyling =
     icon === "rightIcon" ? "absolute left-60 top-3" : "absolute left-64 top-3";
+  const leftIconStyling = icon === "leftIcon" ? "pl-10" : "pl-4";
   return (
     <>
       <label htmlFor="input" className="block my-2 text-xs  text-dark-grey">
@@ -41,13 +43,19 @@ export const Inputs = ({ type, label, placeHolder, icon }) => {
       </label>
       <div className="relative">
         {icon === "leftIcon" ? (
-          <Home className="absolute left-3.5 top-3" />
-        ) : (
+          leftIcon === "Home" ? (
+            <Home className="absolute left-3.5 top-3" />
+          ) : (
+            <Caption className="absolute left-3.5 top-3" />
+          )
+        ) : icon === "rightIcon" ? (
           <RightIcon className="absolute left-64 ml-2.5 top-4" />
+        ) : (
+          ""
         )}
         <input
           id="input"
-          className={`w-72 h-10 ${style} outline-none rounded-md text-sm py-2.5 px-10 mb-10 placeholder-grey-shd1`}
+          className={`w-72 h-10 ${style} outline-none rounded-md text-sm py-2.5 ${leftIconStyling} pr-4 mb-10 placeholder-grey-shd1`}
           type="text"
           placeholder={placeHolder}
           data-testid="textChange"
@@ -77,5 +85,6 @@ Inputs.propTypes = {
   label: PropTypes.string,
   type: PropTypes.oneOf(["Default", "Success", "Error", "Disabled"]),
   placeHolder: PropTypes.string,
-  icon: PropTypes.oneOf(["rightIcon", "leftIcon"]),
+  icon: PropTypes.oneOf(["default", "rightIcon", "leftIcon"]),
+  leftIcon: PropTypes.oneOf(["Home", "Caption"]),
 };

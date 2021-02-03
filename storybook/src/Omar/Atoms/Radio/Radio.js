@@ -7,7 +7,7 @@ export const RADIO = {
   },
 };
 export const Radio = (props) => {
-  const { disabled, size, label1, label2 } = props;
+  const { disabled, size } = props;
   const [radio1, setRadio1] = useState(true);
   const [radio2, setRadio2] = useState(false);
   const handleChange1 = () => {
@@ -24,7 +24,7 @@ export const Radio = (props) => {
   return (
     <>
       <label htmlFor="radio-label1" className={"cursor-pointer"}>
-        {label1}
+        Radio1
         <div
           className={` ${radioStyle1} relative rounded-lg  border border-grey-shd4 flex justify-center items-center focus:ring-2 focus:ring-offset-primary-shd6 focus:outline-none ${
             size === RADIO.SIZE.SMALL ? "w-4 h-4" : "w-6 h-6"
@@ -50,14 +50,14 @@ export const Radio = (props) => {
         </div>
       </label>
       <label htmlFor="radio-label2" className={"cursor-pointer"}>
-        {label2}
+        Radio2
         <div
           className={`${radioStyle2} relative border  border-grey-shd4 rounded-lg flex justify-center items-center hover:border-grey-shd1 focus:ring-2 focus:border-offset-grey-shd2 focus:outline-none ${
             size === RADIO.SIZE.SMALL ? "w-4 h-4" : "w-6 h-6"
           } ${disabled && "border-2 border-grey-shd6"}`}
         >
           <input
-            data-testid="radio2"
+            data-testid="radio1"
             type="radio"
             className={`opacity-0 absolute  cursor-pointer w-full h-full ${
               disabled && "cursor-not-allowed"
@@ -82,6 +82,4 @@ export const Radio = (props) => {
 Radio.propTypes = {
   disabled: PropTypes.bool,
   size: PropTypes.oneOf(["default", "small"]),
-  label1: PropTypes.string,
-  label2: PropTypes.string,
 };

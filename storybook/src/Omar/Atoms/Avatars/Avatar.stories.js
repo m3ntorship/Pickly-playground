@@ -30,4 +30,5 @@ export const Profile_Picture = Template.bind({});
 Profile_Picture.args = {
   type: "filled",
   size: AVATAR_OPTIONS.SIZE.BIG,
+  src: "https://source.unsplash.com/random",
 };

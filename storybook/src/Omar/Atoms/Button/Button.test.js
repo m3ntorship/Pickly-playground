@@ -13,24 +13,53 @@ it("should click", () => {
 });
 
 describe("Button Testing", () => {
-  it("Button default testing with primary, size small and content 'button'", () => {
-    const tree = renderer.create(<Button />).toJSON();
+  it("Button default testing with primary, size small and content 'Button Text'", () => {
+    const tree = renderer.create(<Button>Button Text</Button>).toJSON();
     expect(tree).toMatchSnapshot();
   });
   it("Button disable state", () => {
-    const tree = renderer.create(<Button disabled={true} />).toJSON();
+    const tree = renderer.create(<Button disabled={true}></Button>).toJSON();
     expect(tree).toMatchSnapshot();
   });
   it("Button with size medium", () => {
-    const tree = renderer.create(<Button size="md" />).toJSON();
+    const tree = renderer
+      .create(<Button size="md">Button Text</Button>)
+      .toJSON();
     expect(tree).toMatchSnapshot();
   });
   it("Button with size large", () => {
-    const tree = renderer.create(<Button size="lg" />).toJSON();
+    const tree = renderer
+      .create(<Button size="lg">Button Text</Button>)
+      .toJSON();
     expect(tree).toMatchSnapshot();
   });
   it("Button with variant secondary", () => {
-    const tree = renderer.create(<Button variant="secondary" />).toJSON();
+    const tree = renderer
+      .create(<Button variant="secondary">Button Text</Button>)
+      .toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+  it("Button with left arrow when leftIcon is passed", () => {
+    const tree = renderer
+      .create(<Button leftIcon>Button Text</Button>)
+      .toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+  it("Button with right arrow when rightIcon is passed", () => {
+    const tree = renderer
+      .create(<Button rightIcon>Button Text</Button>)
+      .toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it("Button with both right arrow and left arrow when both icons are passed", () => {
+    const tree = renderer
+      .create(
+        <Button leftIcon rightIcon>
+          Button Text
+        </Button>
+      )
+      .toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

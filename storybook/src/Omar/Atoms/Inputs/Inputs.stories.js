@@ -19,7 +19,7 @@ export default {
     icon: {
       control: {
         type: "select",
-        options: ["rightIcon", "leftIcon"],
+        options: ["default", "rightIcon", "leftIcon"],
       },
     },
   },
@@ -31,5 +31,6 @@ Default.args = {
   type: OPTION.STATUS.DEFAULT,
   label: "Label",
   placeHolder: "Enter Text",
-  icon: "rightIcon",
+  icon: "default",
+  leftIcon: "Home",
 };
