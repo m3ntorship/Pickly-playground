@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render a PostView render PostView comp  1`] = `
+<div>
+  many
+</div>
+`;

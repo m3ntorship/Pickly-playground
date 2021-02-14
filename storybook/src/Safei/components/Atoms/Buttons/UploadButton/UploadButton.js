@@ -1,7 +1,8 @@
 import React from "react";
-const UploadButton = () => {
+const UploadButton = ({ onClick }) => {
   return (
     <div
+      onClick={onClick}
       id="upload-container"
       className="border-2 border-dashed border-accent bg-grey-shd7 rounded-md text-accent focus:outline-none relative h-14 text-center"
     >
@@ -29,6 +30,7 @@ const UploadButton = () => {
         id="myFile"
         name="filename"
         multiple
+        data-testid="upload-btn"
         className="opacity-0 min-w-full h-full cursor-pointer"
       />
     </div>

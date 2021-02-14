@@ -12,7 +12,13 @@ const Toggle = (props) => {
   return (
     <div style={{ transform: `scale(${size})` }}>
       <label className="switch">
-        <input type="checkbox" disabled={props.disabled} checked={props.on} />
+        <input
+          type="checkbox"
+          disabled={props.disabled}
+          checked={props.on}
+          onClick={props.onClick}
+          data-testid="toggle"
+        />
         <span className="slider round"></span>
       </label>
     </div>
