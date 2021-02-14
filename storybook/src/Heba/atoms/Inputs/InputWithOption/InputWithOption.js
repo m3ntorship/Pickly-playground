@@ -33,7 +33,7 @@ export const InputWithOption = ({ type }) => {
             ></path>
           </svg>
           <input
-            className="w-60 h-5 font-sans text-sm my-3 text-grey-shd1"
+            className="w-full h-5 font-sans text-sm my-3 text-grey-shd1 focus:outline-none"
             placeholder="Type caption (optional)"
           />
         </div>
@@ -58,7 +58,7 @@ export const InputWithOption = ({ type }) => {
             />
           </svg>
           <input
-            className="w-60 h-5 font-sans text-sm my-3 text-grey-shd1"
+            className="w-full h-5 font-sans text-sm my-3 text-grey-shd1 focus:outline-none"
             placeholder="Type caption (optional)"
           />
         </div>
@@ -84,7 +84,7 @@ export const InputWithOption = ({ type }) => {
           </svg>
 
           <input
-            className="w-60 h-5 font-sans text-sm my-3 text-grey-shd1"
+            className="w-full  h-5 font-sans text-sm my-3 text-grey-shd1 focus:outline-none"
             placeholder="Type caption (optional)"
           />
         </div>
@@ -110,7 +110,7 @@ export const InputWithOption = ({ type }) => {
           </svg>
 
           <input
-            className="w-60 h-5 font-sans text-sm my-3 text-grey-shd1"
+            className="w-full  h-5 font-sans text-sm my-3 text-grey-shd1 focus:outline-none"
             placeholder="Type caption (optional)"
           />
         </div>
