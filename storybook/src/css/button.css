@@ -1,0 +1,38 @@
+.hoverEffect {
+  border: 3px solid transparent;
+}
+.hoverEffect:hover {
+  background-color: #5f3dc4;
+}
+.hoverEffect:focus {
+  border: #5f3dc4 3px solid;
+  outline: 2px transparent;
+}
+.btn-secondary:focus {
+  border: #5f3dc4 2px solid;
+  outline: 2px transparent;
+}
+.btn-secondary:hover {
+  background-color: #fafafc;
+}
+.text-accent:hover .btn-text-content {
+  text-decoration: underline;
+}
+.text-accent:focus {
+  border-bottom: 2px solid #0092c9;
+  outline: 2px transparent;
+}
+
+.btn-primary {
+  @apply bg-primary rounded-full text-white font-bold hoverEffect flex items-center justify-center content-center;
+}
+.btn-primary-disabled {
+  @apply bg-opacity-25 bg-primary rounded-full text-white font-bold outline-none flex items-center justify-center content-center cursor-not-allowed;
+}
+.btn-secondary {
+  @apply text-primary bg-white font-bold border-2 border-primary rounded-full flex items-center justify-center content-center;
+}
+
+.btn-secondary-disabled {
+  @apply border-2 border-grey-shd2 bg-white rounded-full text-grey-shd2 font-bold outline-none flex items-center justify-center content-center cursor-not-allowed;
+}
