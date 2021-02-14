@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Divider Component should render a horizontal divider by default 1`] = `
+<div
+  className="bg-grey-shd6 w-full h-px undefined"
+/>
+`;
+
+exports[`Divider Component should render a vertival divider when passing direction=vertical 1`] = `
+<div
+  className="bg-grey-shd6 h-full w-px undefined"
+/>
+`;

@@ -18,6 +18,7 @@ exports[`Test my PostOptions components renders a PostOptions bar  1`] = `
         className="switch"
       >
         <input
+          data-testid="toggle"
           type="checkbox"
         />
         <span

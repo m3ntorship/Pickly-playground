@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Testing Button default testing with primary, size small and content 'Button Text' 1`] = `
+<button
+  className="rounded-full border disabled:opacity-30 flex items-center bg-primary text-white hover:bg-primary-shd9 focus:outline-none focus:border-primary-shd9 text-sm py-1.5 px-m"
+  data-testid="btn-case"
+  disabled={false}
+>
+  Button Text
+</button>
+`;
+
+exports[`Button Testing Button disable state 1`] = `
+<button
+  className="rounded-full border disabled:opacity-30 flex items-center bg-primary text-white hover:bg-primary-shd9 focus:outline-none focus:border-primary-shd9 text-sm py-1.5 px-m"
+  data-testid="btn-case"
+  disabled={true}
+/>
+`;
+
+exports[`Button Testing Button with both right arrow and left arrow when both icons are passed 1`] = `
+<button
+  className="rounded-full border disabled:opacity-30 flex items-center bg-primary text-white hover:bg-primary-shd9 focus:outline-none focus:border-primary-shd9 text-sm py-1.5 px-m"
+  data-testid="btn-case"
+  disabled={false}
+>
+  <svg
+    className="w-4 h-4"
+    fill="none"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M16.293 9.293L12 13.586L7.70697 9.293L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.293Z"
+      fill="white"
+    />
+  </svg>
+  Button Text
+  <svg
+    className="w-4 h-4"
+    fill="none"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M16.293 9.293L12 13.586L7.70697 9.293L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.293Z"
+      fill="white"
+    />
+  </svg>
+</button>
+`;
+
+exports[`Button Testing Button with left arrow when leftIcon is passed 1`] = `
+<button
+  className="rounded-full border disabled:opacity-30 flex items-center bg-primary text-white hover:bg-primary-shd9 focus:outline-none focus:border-primary-shd9 text-sm py-1.5 px-m"
+  data-testid="btn-case"
+  disabled={false}
+>
+  <svg
+    className="w-4 h-4"
+    fill="none"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M16.293 9.293L12 13.586L7.70697 9.293L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.293Z"
+      fill="white"
+    />
+  </svg>
+  Button Text
+</button>
+`;
+
+exports[`Button Testing Button with right arrow when rightIcon is passed 1`] = `
+<button
+  className="rounded-full border disabled:opacity-30 flex items-center bg-primary text-white hover:bg-primary-shd9 focus:outline-none focus:border-primary-shd9 text-sm py-1.5 px-m"
+  data-testid="btn-case"
+  disabled={false}
+>
+  Button Text
+  <svg
+    className="w-4 h-4"
+    fill="none"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M16.293 9.293L12 13.586L7.70697 9.293L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.293Z"
+      fill="white"
+    />
+  </svg>
+</button>
+`;
+
+exports[`Button Testing Button with size large 1`] = `
+<button
+  className="rounded-full border disabled:opacity-30 flex items-center bg-primary text-white hover:bg-primary-shd9 focus:outline-none focus:border-primary-shd9 text-md py-3.5 px-xl"
+  data-testid="btn-case"
+  disabled={false}
+>
+  Button Text
+</button>
+`;
+
+exports[`Button Testing Button with size medium 1`] = `
+<button
+  className="rounded-full border disabled:opacity-30 flex items-center bg-primary text-white hover:bg-primary-shd9 focus:outline-none focus:border-primary-shd9 text-base py-xs px-l"
+  data-testid="btn-case"
+  disabled={false}
+>
+  Button Text
+</button>
+`;
+
+exports[`Button Testing Button with variant secondary 1`] = `
+<button
+  className="rounded-full border disabled:opacity-30 flex items-center bg-white text-primary border-primary border-solid hover:bg-grey-bg2 focus:border-2 focus:outline-none text-sm py-1.5 px-m"
+  data-testid="btn-case"
+  disabled={false}
+>
+  Button Text
+</button>
+`;
