@@ -24,7 +24,7 @@ export const ButtonIcon = ({ children, iconPosition, size }) => {
 
   return (
     <button
-      className={`flex items-center rounded-full  bg-primary  text-white hover:bg-primary-shd8 focus:outline-none focus:border-2 focus:border-primary-shd9 focus:border-opacity-100 disabled:opacity-5
+      className={`flex items-center  font-sans rounded-full  bg-primary  text-white hover:bg-primary-shd8 focus:outline-none focus:border-2 focus:border-primary-shd9 focus:border-opacity-100 disabled:opacity-5  
           ${size === BUTTON_OPTIONS.SIZE.BIG && "px-xl py-s font-bold text-md"},
           ${
             size === BUTTON_OPTIONS.SIZE.MEDIUM &&
