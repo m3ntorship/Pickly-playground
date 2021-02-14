@@ -28,11 +28,11 @@ export const ButtonIcon = ({ children, iconPosition, size }) => {
           ${size === BUTTON_OPTIONS.SIZE.BIG && "px-xl py-s font-bold text-md"},
           ${
             size === BUTTON_OPTIONS.SIZE.MEDIUM &&
-            "px-l py-xs font-semibold  text-base"
+            "px-l py-xs font-semibold  text-base font-sans "
           },
           ${
             size === BUTTON_OPTIONS.SIZE.SMALL &&
-            "px-m py-xxs font-semibold text-sm"
+            "px-m py-xxs font-semibold text-sm font-sans "
           }
           `}
     >

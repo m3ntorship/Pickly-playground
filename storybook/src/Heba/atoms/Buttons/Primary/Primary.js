@@ -23,17 +23,20 @@ export const Button = ({ type, content, size, disabled }) => {
       className={`
   ${
     type === BUTTON_OPTIONS.TYPE.PRIMARY
-      ? "rounded-full  bg-primary  text-white hover:bg-primary-shd8 focus:outline-none focus:border-2 focus:border-primary-shd9 focus:border-opacity-100 disabled:opacity-5"
-      : "rounded-full  text-primary  border-2 border-primary"
+      ? "rounded-full  font-sans  bg-primary  text-white hover:bg-primary-shd8 focus:outline-none focus:border-2 focus:border-primary-shd9 focus:border-opacity-100 disabled:opacity-5"
+      : "rounded-full  font-sans  text-primary  border-2 border-primary"
   },
-        ${size === BUTTON_OPTIONS.SIZE.BIG && "px-xl py-s font-bold text-md"},
+        ${
+          size === BUTTON_OPTIONS.SIZE.BIG &&
+          "px-xl py-s font-sans  font-bold text-md"
+        },
         ${
           size === BUTTON_OPTIONS.SIZE.MEDIUM &&
-          "px-l py-xs font-semibold  text-base"
+          "px-l py-xs font-semibold  text-base font-sans "
         },
         ${
           size === BUTTON_OPTIONS.SIZE.SMALL &&
-          "px-m py-xxs font-semibold text-sm"
+          "px-m py-xxs font-semibold text-sm font-sans "
         },
         ${disabled === BUTTON_OPTIONS.DISABLED.ON && "opacity-25"}
         `}
